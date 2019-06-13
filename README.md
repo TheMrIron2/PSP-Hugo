@@ -2,6 +2,10 @@
 
 Hugo (v1.3.1) is a TurboGrafx-16/PC Engine emulator for the PSP. It runs most games at full speed at 266MHz, sometimes 222MHz and sometimes requiring 300MHz (especially for CD-ROM games). It boasts high compatibility, good performance and good accuracy.
 
+## Modern Branch
+
+This branch of PSP-Hugo will document my attempt to get this compiling under a recent PSP SDK. I'll also see if I can make it compliant with C11 or C18 standards, if time and interest allows.
+
 ## Credits
 
 Hu-Go is a multi-platform PC Engine/TurboGrafx-16 emulator. PSP-HUGO is a port of the then-latest HUGO version.
