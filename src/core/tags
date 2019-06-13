@@ -1,0 +1,1783 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+AC_ENABLE_INC	hard_pce.h	274;"	d
+AC_ENABLE_OFFSET_BASE_6	hard_pce.h	270;"	d
+AC_ENABLE_OFFSET_BASE_A	hard_pce.h	271;"	d
+AC_INCREMENT_BASE	hard_pce.h	272;"	d
+AC_USE_OFFSET	hard_pce.h	273;"	d
+ADPCM_MAX_INDEX	mix.c	376;"	d	file:
+AD_CPLAY	bios.c	49;"	d	file:
+AD_PLAY	bios.c	48;"	d	file:
+AD_READ	bios.c	46;"	d	file:
+AD_RESET	bios.c	44;"	d	file:
+AD_STAT	bios.c	51;"	d	file:
+AD_STOP	bios.c	50;"	d	file:
+AD_TRANS	bios.c	45;"	d	file:
+AD_WRITE	bios.c	47;"	d	file:
+ALBUM_LEN	lsmp3.c	53;"	d	file:
+ALLOC	unzip.c	47;"	d	file:
+AM_ABS	dis_runtime.h	24;"	d
+AM_ABS	optable.h	18;"	d
+AM_ABSIND	dis_runtime.h	27;"	d
+AM_ABSIND	optable.h	21;"	d
+AM_ABSINDX	dis_runtime.h	28;"	d
+AM_ABSINDX	optable.h	22;"	d
+AM_ABSX	dis_runtime.h	25;"	d
+AM_ABSX	optable.h	19;"	d
+AM_ABSY	dis_runtime.h	26;"	d
+AM_ABSY	optable.h	20;"	d
+AM_IMMED	dis_runtime.h	16;"	d
+AM_IMMED	optable.h	10;"	d
+AM_IMPL	dis_runtime.h	15;"	d
+AM_IMPL	optable.h	9;"	d
+AM_PSREL	dis_runtime.h	29;"	d
+AM_PSREL	optable.h	23;"	d
+AM_REL	dis_runtime.h	17;"	d
+AM_REL	optable.h	11;"	d
+AM_TST_ABS	dis_runtime.h	31;"	d
+AM_TST_ABS	optable.h	25;"	d
+AM_TST_ABSX	dis_runtime.h	33;"	d
+AM_TST_ABSX	optable.h	27;"	d
+AM_TST_ZP	dis_runtime.h	30;"	d
+AM_TST_ZP	optable.h	24;"	d
+AM_TST_ZPX	dis_runtime.h	32;"	d
+AM_TST_ZPX	optable.h	26;"	d
+AM_XFER	dis_runtime.h	34;"	d
+AM_XFER	optable.h	28;"	d
+AM_ZP	dis_runtime.h	18;"	d
+AM_ZP	optable.h	12;"	d
+AM_ZPIND	dis_runtime.h	21;"	d
+AM_ZPIND	optable.h	15;"	d
+AM_ZPINDX	dis_runtime.h	22;"	d
+AM_ZPINDX	optable.h	16;"	d
+AM_ZPINDY	dis_runtime.h	23;"	d
+AM_ZPINDY	optable.h	17;"	d
+AM_ZPX	dis_runtime.h	19;"	d
+AM_ZPX	optable.h	13;"	d
+AM_ZPY	dis_runtime.h	20;"	d
+AM_ZPY	optable.h	14;"	d
+ARCH_FILE	gui.h	/^       } ARCH_FILE;$/;"	t	typeref:struct:__anon3
+ARTIST_LEN	lsmp3.c	52;"	d	file:
+AUDIOBUFFER	psp/osd_psp_snd_prev.c	10;"	d	file:
+AdpcmFilledBuf	sound.c	/^UInt32 AdpcmFilledBuf = 0;$/;"	v
+AdpcmFilledBuf	sound_prev.c	/^UInt32 AdpcmFilledBuf = 0;$/;"	v
+AdpcmIndexAdjustTable	mix.c	/^int AdpcmIndexAdjustTable[16] =$/;"	v
+AdpcmStepSizeTable	mix.c	/^int AdpcmStepSizeTable[ADPCM_MAX_INDEX + 1] =$/;"	v
+B	shared_memory.h	/^  struct { UChar h,l; } B;$/;"	m	union:__anon5	typeref:struct:__anon5::__anon6
+BGONSwitch	sprite.c	/^UChar BGONSwitch = 1;$/;"	v
+BM_DELETE	bios.c	59;"	d	file:
+BM_FILES	bios.c	60;"	d	file:
+BM_FORMAT	bios.c	55;"	d	file:
+BM_FREE	bios.c	56;"	d	file:
+BM_READ	bios.c	57;"	d	file:
+BM_WRITE	bios.c	58;"	d	file:
+BSD_CD_HARDWARE_SUPPORT	config.h	5;"	d
+BUFREADCOMMENT	unzip.c	270;"	d	file:
+BXR	hard_pce.h	/^  BXR,	\/*  7 *\/ \/* Horizontal scroll offset *\/$/;"	e	enum:_VDC_REG
+BYR	hard_pce.h	/^  BYR,	\/*  8 *\/ \/* Vertical scroll offset *\/$/;"	e	enum:_VDC_REG
+BYTE	cleantyp.h	/^  typedef unsigned char BYTE;$/;"	t
+BYTE	sound.h	12;"	d
+BaseClock	pce.c	/^int BaseClock;$/;"	v
+BaseClock	sound.c	/^int BaseClock=7170000;$/;"	v
+BaseClock	sound_prev.c	/^int BaseClock=7170000;$/;"	v
+Bp_list	debug.c	/^Breakpoint Bp_list[MAX_BP];$/;"	v
+Bp_pos_to_restore	debug.c	/^UInt16 Bp_pos_to_restore;$/;"	v
+Breakpoint	debug.h	/^Breakpoint;$/;"	t	typeref:struct:__anon23
+BytesOfWord	defs.h	/^} BytesOfWord;$/;"	t	typeref:struct:__anon10
+CASESENSITIVITY	miniunz.c	29;"	d	file:
+CASESENSITIVITYDEFAULTVALUE	unzip.c	238;"	d	file:
+CASESENSITIVITYDEFAULTVALUE	unzip.c	240;"	d	file:
+CASESENSITIVITYDEFAULT_NO	unzip.c	34;"	d	file:
+CDBIOS_replace	pce.c	/^UChar CDBIOS_replace[0x4d][2];$/;"	v
+CDROM_AUDIO_PAUSED	sys_cd.h	6;"	d
+CDROM_AUDIO_PLAY	sys_cd.h	5;"	d
+CD_BASE	bios.c	22;"	d	file:
+CD_BOOT	bios.c	20;"	d	file:
+CD_BUF_LENGTH	pce.c	799;"	d	file:
+CD_CONTENTS	bios.c	37;"	d	file:
+CD_DINFO	bios.c	31;"	d	file:
+CD_DINFO_LENGTH	bios.c	34;"	d	file:
+CD_DINFO_NB_TRACKS	bios.c	33;"	d	file:
+CD_DINFO_TRACK	bios.c	35;"	d	file:
+CD_EXEC	bios.c	25;"	d	file:
+CD_FADE	bios.c	40;"	d	file:
+CD_FRAMES	pce.c	47;"	d	file:
+CD_MSF_OFFSET	pce.c	1001;"	d	file:
+CD_PAUSE	bios.c	28;"	d	file:
+CD_PCMRD	bios.c	39;"	d	file:
+CD_PLAY	bios.c	26;"	d	file:
+CD_READ	bios.c	23;"	d	file:
+CD_RESET	bios.c	21;"	d	file:
+CD_SEARCH	bios.c	27;"	d	file:
+CD_SECS	pce.c	48;"	d	file:
+CD_SEEK	bios.c	24;"	d	file:
+CD_STAT	bios.c	29;"	d	file:
+CD_SUBA	bios.c	30;"	d	file:
+CD_SUBRQ	bios.c	38;"	d	file:
+CD_SYSTEM	list_rom.h	20;"	d
+CD_emulation	pce.c	/^UChar CD_emulation = 0;$/;"	v
+CD_sample	sound.c	/^SAMPLE *CD_sample = NULL;$/;"	v
+CD_sample	sound_prev.c	/^SAMPLE *CD_sample = NULL;$/;"	v
+CD_track	pce.c	/^Track CD_track[0x100];$/;"	v
+CGX	sprite.c	322;"	d	file:
+COMMENT_LEN	lsmp3.c	55;"	d	file:
+COOKED	cd.h	4;"	d
+CR	hard_pce.h	/^  CR,   \/*  5 *\/ \/* Control Register *\/$/;"	e	enum:_VDC_REG
+CRC	list_rom.h	/^  unsigned long CRC;$/;"	m	struct:pce_rom_info
+CRC_file	list_rom.c	/^UInt32 CRC_file (char *name)$/;"	f
+C_ya	lang.h	41;"	d
+CartLoad	pce.c	/^CartLoad (char *name)$/;"	f
+Char	cleantyp.h	/^typedef signed char Char;$/;"	t
+CheckSprites	sprite.c	/^CheckSprites (void)$/;"	f
+Country	pce.c	/^int Country;$/;"	v
+CycleNew	sound.c	/^UInt32 CycleNew;$/;"	v
+CycleNew	sound_prev.c	/^UInt32 CycleNew;$/;"	v
+CycleOld	sound.c	/^UInt32 CycleOld;$/;"	v
+CycleOld	sound_prev.c	/^UInt32 CycleOld;$/;"	v
+DCR	hard_pce.h	/^  DCR,	\/*  F *\/ \/* DMA Control *\/$/;"	e	enum:_VDC_REG
+DEFS_H_	defs.h	6;"	d
+DISABLE	hard_pce.h	268;"	d
+DISABLED	debug.h	24;"	d
+DISTR	hard_pce.h	/^  DISTR,\/* 11 *\/ \/* Destination Address of DMA transfert *\/$/;"	e	enum:_VDC_REG
+DMAIntON	pce.h	366;"	d
+DWORD	cleantyp.h	/^typedef unsigned int DWORD;$/;"	t
+DWORD	cleantyp.h	/^typedef unsigned long int DWORD;$/;"	t
+DWORD	sound.h	14;"	d
+Duration	pce.h	/^  UInt32 Duration;$/;"	m	struct:__anon18
+ENABLE	hard_pce.h	267;"	d
+ENABLED	debug.h	23;"	d
+EX_BCDBIN	bios.c	95;"	d	file:
+EX_BGOFF	bios.c	81;"	d	file:
+EX_BGON	bios.c	80;"	d	file:
+EX_BINBCD	bios.c	94;"	d	file:
+EX_COLORC	bios.c	116;"	d	file:
+EX_DMAMOD	bios.c	86;"	d	file:
+EX_DOTMOD	bios.c	70;"	d	file:
+EX_DSPOFF	bios.c	85;"	d	file:
+EX_DSPON	bios.c	84;"	d	file:
+EX_GETFNT	bios.c	66;"	d	file:
+EX_GETVER	bios.c	64;"	d	file:
+EX_HMOD	bios.c	74;"	d	file:
+EX_IMODE	bios.c	72;"	d	file:
+EX_IRQOFF	bios.c	79;"	d	file:
+EX_IRQON	bios.c	78;"	d	file:
+EX_JOYREP	bios.c	68;"	d	file:
+EX_JOYSNS	bios.c	67;"	d	file:
+EX_RCROFF	bios.c	77;"	d	file:
+EX_RCRON	bios.c	76;"	d	file:
+EX_RND	bios.c	96;"	d	file:
+EX_SATCLR	bios.c	88;"	d	file:
+EX_SCRMOD	bios.c	71;"	d	file:
+EX_SCRSIZ	bios.c	69;"	d	file:
+EX_SETDMA	bios.c	93;"	d	file:
+EX_SETRCR	bios.c	90;"	d	file:
+EX_SETRED	bios.c	91;"	d	file:
+EX_SETVEC	bios.c	65;"	d	file:
+EX_SETWRT	bios.c	92;"	d	file:
+EX_SPRDMA	bios.c	87;"	d	file:
+EX_SPROFF	bios.c	83;"	d	file:
+EX_SPRON	bios.c	82;"	d	file:
+EX_SPRPUT	bios.c	89;"	d	file:
+EX_VMOD	bios.c	73;"	d	file:
+EX_VSYNC	bios.c	75;"	d	file:
+EmphasisTbl	lsmp3.c	/^char *EmphasisTbl[] = { "none", "50\/15ms", "unknown", "CCITTj.17" };$/;"	v
+FALSE	cleantyp.h	/^  FALSE,$/;"	e	enum:__anon8
+FALSE	cleantyp.h	11;"	d
+FC_H	sprite.c	187;"	d	file:
+FC_W	sprite.c	186;"	d	file:
+FINAL_RELEASE	config.h	22;"	d
+FLIP32	sprite.c	/^static inline unsigned int FLIP32(unsigned int b)$/;"	f	file:
+FL_B	globals.h	17;"	d
+FL_C	globals.h	21;"	d
+FL_D	globals.h	18;"	d
+FL_I	globals.h	19;"	d
+FL_IRQ1	interupt.h	15;"	d
+FL_IRQ2	interupt.h	14;"	d
+FL_N	globals.h	14;"	d
+FL_T	globals.h	16;"	d
+FL_TIQ	interupt.h	16;"	d
+FL_V	globals.h	15;"	d
+FL_Z	globals.h	20;"	d
+FORMAT_H_	format.h	8;"	d
+FRAME_SIZ	lsmp3.c	57;"	d	file:
+Frame2Time	cd.c	/^Frame2Time (unsigned frame, int *Min, int *Sec, int *Fra)$/;"	f
+FrqTab	lsmp3.c	/^unsigned int FrqTab[] = { 44100, 48000, 32000, 22050, 24000, 16000, 11025 };$/;"	v
+GIVE_HAND_BP	debug.h	18;"	d
+GLOBALS_H_	globals.h	6;"	d
+GRP_BIOS	bios.c	113;"	d	file:
+H6280_H_	h6280.h	7;"	d
+HAVE_ALLOCA	config.h	31;"	d
+HAVE_ALLOCA_H	config.h	35;"	d
+HAVE_ATEXIT	config.h	38;"	d
+HAVE_INTTYPES_H	config.h	56;"	d
+HAVE_LIMITS_H	config.h	77;"	d
+HAVE_MEMORY_H	config.h	80;"	d
+HAVE_MEMSET	config.h	83;"	d
+HAVE_MKDIR	config.h	86;"	d
+HAVE_SELECT	config.h	89;"	d
+HAVE_STDINT_H	config.h	92;"	d
+HAVE_STDLIB_H	config.h	95;"	d
+HAVE_STRCHR	config.h	98;"	d
+HAVE_STRDUP	config.h	101;"	d
+HAVE_STRINGS_H	config.h	104;"	d
+HAVE_STRING_H	config.h	107;"	d
+HAVE_STRRCHR	config.h	110;"	d
+HAVE_STRSTR	config.h	113;"	d
+HAVE_SYS_IOCTL_H	config.h	116;"	d
+HAVE_SYS_PARAM_H	config.h	119;"	d
+HAVE_SYS_STAT_H	config.h	122;"	d
+HAVE_SYS_TYPES_H	config.h	125;"	d
+HAVE_UNISTD_H	config.h	128;"	d
+HAVE_VPRINTF	config.h	131;"	d
+HCD_SOURCE_CD_TRACK	pce.h	/^  HCD_SOURCE_CD_TRACK$/;"	e	enum:__anon19
+HCD_SOURCE_REGULAR_FILE	pce.h	/^  HCD_SOURCE_REGULAR_FILE,$/;"	e	enum:__anon19
+HCD_cd_read_sector	hcd.c	/^HCD_cd_read_sector(unsigned char *p, UInt32 dum, UInt32 result)$/;"	f
+HCD_cover_filename	hcd.c	/^char HCD_cover_filename[256] = "";$/;"	v
+HCD_current_played_track	hcd.c	/^UChar HCD_current_played_track = 0;$/;"	v
+HCD_current_subtitle	hcd.c	/^UInt32 HCD_current_subtitle = 0;$/;"	v
+HCD_first_track	hcd.c	/^UInt32 HCD_first_track;$/;"	v
+HCD_frame_at_beginning_of_track	hcd.c	/^UInt32 HCD_frame_at_beginning_of_track = 0;$/;"	v
+HCD_handle_subtitle	hcd.c	/^HCD_handle_subtitle ()$/;"	f
+HCD_iso_FILE	hcd.c	/^FILE *HCD_iso_FILE = 0;$/;"	v
+HCD_iso_read_sector	hcd.c	/^HCD_iso_read_sector(unsigned char *p, UInt32 dum, UInt32 result)$/;"	f
+HCD_last_track	hcd.c	/^UInt32 HCD_last_track;$/;"	v
+HCD_packed_iso_FILE	hcd.c	/^PACKFILE *HCD_packed_iso_FILE = 0;$/;"	v
+HCD_pause_playing	hcd.c	/^HCD_pause_playing ()$/;"	f
+HCD_play_sectors	hcd.c	/^HCD_play_sectors (int begin_sect, int sect_len, char repeat)$/;"	f
+HCD_play_track	hcd.c	/^HCD_play_track (UChar track, char repeat)$/;"	f
+HCD_shutdown	hcd.c	/^HCD_shutdown ()$/;"	f
+HDR	hard_pce.h	/^  HDR,	\/*  B *\/ \/* Horizontal Definition *\/$/;"	e	enum:_VDC_REG
+HEIGHT	gfx.h	7;"	d
+HEIGHT	pce.h	18;"	d
+HSG2Redbook	cd.c	/^HSG2Redbook (unsigned HSG)$/;"	f
+HSG2Time	cd.c	/^HSG2Time (unsigned hsg, int *Min, int *Sec, int *Fra)$/;"	f
+HSR	hard_pce.h	/^  HSR,	\/*  A *\/ \/* Unknown, other horizontal definition *\/$/;"	e	enum:_VDC_REG
+H_FLIP	sprite.c	320;"	d	file:
+ID3_TAG_LEN	lsmp3.c	49;"	d	file:
+INCLUDE_BIOS_H	bios.h	2;"	d
+INCLUDE_BP_H	bp.h	2;"	d
+INCLUDE_SHARED_MEMORY	shared_memory.h	2;"	d
+INDEX_ITEM	gui.h	/^		 } INDEX_ITEM;$/;"	t	typeref:struct:__anon2
+INLINED_ACCESSORS	h6280.h	276;"	d
+INTERNET_PROTOCOL	sys_inp.h	/^typedef enum { LOCAL_PROTOCOL, LAN_PROTOCOL, INTERNET_PROTOCOL } netplay_type ;$/;"	e	enum:__anon25
+INTERUPT_H_	interupt.h	7;"	d
+INT_IRQ	h6280.h	256;"	d
+INT_IRQ2	h6280.h	260;"	d
+INT_NMI	h6280.h	257;"	d
+INT_NONE	h6280.h	255;"	d
+INT_QUIT	h6280.h	258;"	d
+INT_TIMER	h6280.h	259;"	d
+IO	shared_memory.h	/^} IO;$/;"	t	typeref:struct:tagIO
+IOAREA	hard_pce.c	/^UChar *IOAREA;$/;"	v
+IO_read	hard_pce.c	/^UChar IO_read (UInt16 A)$/;"	f
+IO_read_raw	hard_pce.c	/^IO_read_raw (UInt16 A)$/;"	f
+IO_write	pce.c	/^IO_write (UInt16 A, UChar V)$/;"	f
+IPC_CREAT	utils.h	36;"	d
+IPC_EXCL	utils.h	37;"	d
+IPC_RMID	utils.h	38;"	d
+IPeriod	pce.c	/^int IPeriod;$/;"	v
+IRQ1	pce.h	369;"	d
+IRQ2	pce.h	368;"	d
+ISO_filename	pce.c	/^char ISO_filename[PATH_MAX] = "";$/;"	v
+ISO_header	iso_ent.h	/^UChar ISO_header[0x800]=$/;"	v
+ISQ_position	pce.c	/^UInt32 ISQ_position = 0;$/;"	v
+InitPCE	pce.c	/^InitPCE (char *name, char *backmemname)$/;"	f
+InitSound	sound.c	/^int InitSound(void)$/;"	f
+InitSound	sound_prev.c	/^int InitSound(void)$/;"	f
+Int16	cleantyp.h	/^typedef signed int Int16;$/;"	t
+Int16	cleantyp.h	/^typedef signed short int Int16;$/;"	t
+Int32	cleantyp.h	/^typedef signed int Int32;$/;"	t
+Int32	cleantyp.h	/^typedef signed long int Int32;$/;"	t
+Int6502	h6280.c	/^Int6502 (UChar Type)$/;"	f	file:
+JAP	list_rom.h	29;"	d
+JOY	shared_memory.h	/^  UChar JOY[16];   \/* value of pressed button\/direct for each pad$/;"	m	struct:tagIO
+JOYPAD1	sys_inp.h	146;"	d
+JOYPAD2	sys_inp.h	147;"	d
+JOYPAD3	sys_inp.h	148;"	d
+JOYPAD4	sys_inp.h	149;"	d
+JOY_A	psp/osd_psp_keyboard.c	15;"	d	file:
+JOY_B	psp/osd_psp_keyboard.c	16;"	d	file:
+JOY_DOWN	psp/osd_psp_keyboard.c	21;"	d	file:
+JOY_LEFT	psp/osd_psp_keyboard.c	22;"	d	file:
+JOY_RIGHT	psp/osd_psp_keyboard.c	20;"	d	file:
+JOY_RUN	psp/osd_psp_keyboard.c	18;"	d	file:
+JOY_SELECT	psp/osd_psp_keyboard.c	17;"	d	file:
+JOY_UP	psp/osd_psp_keyboard.c	19;"	d	file:
+J_AUTOI	pce.h	382;"	d
+J_AUTOI	sys_inp.h	/^  J_AUTOI,$/;"	e	enum:__anon24
+J_AUTOII	pce.h	383;"	d
+J_AUTOII	sys_inp.h	/^  J_AUTOII,$/;"	e	enum:__anon24
+J_DOWN	pce.h	375;"	d
+J_DOWN	sys_inp.h	/^  J_DOWN,$/;"	e	enum:__anon24
+J_I	pce.h	378;"	d
+J_I	sys_inp.h	/^  J_I,$/;"	e	enum:__anon24
+J_II	pce.h	379;"	d
+J_II	sys_inp.h	/^  J_II,$/;"	e	enum:__anon24
+J_LEFT	pce.h	376;"	d
+J_LEFT	sys_inp.h	/^  J_LEFT,$/;"	e	enum:__anon24
+J_MAX	pce.h	392;"	d
+J_MAX	sys_inp.h	/^  J_MAX,$/;"	e	enum:__anon24
+J_PAD_START	sys_inp.h	/^  J_PAD_START = J_PI$/;"	e	enum:__anon24
+J_PAUTOI	pce.h	388;"	d
+J_PAUTOI	sys_inp.h	/^  J_PAUTOI,$/;"	e	enum:__anon24
+J_PAUTOII	pce.h	389;"	d
+J_PAUTOII	sys_inp.h	/^  J_PAUTOII,$/;"	e	enum:__anon24
+J_PI	pce.h	384;"	d
+J_PI	sys_inp.h	/^  J_PI,$/;"	e	enum:__anon24
+J_PII	pce.h	385;"	d
+J_PII	sys_inp.h	/^  J_PII,$/;"	e	enum:__anon24
+J_PRUN	sys_inp.h	/^  J_PRUN,$/;"	e	enum:__anon24
+J_PSELECT	pce.h	386;"	d
+J_PSELECT	sys_inp.h	/^  J_PSELECT,$/;"	e	enum:__anon24
+J_PSTART	pce.h	387;"	d
+J_PXAXIS	pce.h	390;"	d
+J_PXAXIS	sys_inp.h	/^  J_PXAXIS,$/;"	e	enum:__anon24
+J_PYAXIS	pce.h	391;"	d
+J_PYAXIS	sys_inp.h	/^  J_PYAXIS,$/;"	e	enum:__anon24
+J_RIGHT	pce.h	377;"	d
+J_RIGHT	sys_inp.h	/^  J_RIGHT,$/;"	e	enum:__anon24
+J_RUN	sys_inp.h	/^  J_RUN,$/;"	e	enum:__anon24
+J_SELECT	pce.h	380;"	d
+J_SELECT	sys_inp.h	/^  J_SELECT,$/;"	e	enum:__anon24
+J_START	pce.h	381;"	d
+J_UP	pce.h	374;"	d
+J_UP	sys_inp.h	/^  J_UP = 0,$/;"	e	enum:__anon24
+KERNEL_DS	config.h	143;"	d
+KEYBOARD1	sys_inp.h	140;"	d
+KEYBOARD2	sys_inp.h	141;"	d
+KEYBOARD3	sys_inp.h	142;"	d
+KEYBOARD4	sys_inp.h	143;"	d
+KEYBOARD5	sys_inp.h	144;"	d
+KEY_BIOS	bios.c	114;"	d	file:
+KbPerSecTab	lsmp3.c	/^int KbPerSecTab[2][4][16] = {$/;"	v
+LAN_PROTOCOL	sys_inp.h	/^typedef enum { LOCAL_PROTOCOL, LAN_PROTOCOL, INTERNET_PROTOCOL } netplay_type ;$/;"	e	enum:__anon25
+LENR	hard_pce.h	/^  LENR,	\/* 12 *\/ \/* Length of DMA transfert *\/$/;"	e	enum:_VDC_REG
+LOAD_INTEGRATED_SYS_FILE	pce.c	1970;"	d	file:
+LOAD_INTEGRATED_SYS_FILE	pce.c	1974;"	d	file:
+LOAD_INTEGRATED_SYS_FILE	pce.c	1980;"	d	file:
+LOCAL_PROTOCOL	sys_inp.h	/^typedef enum { LOCAL_PROTOCOL, LAN_PROTOCOL, INTERNET_PROTOCOL } netplay_type ;$/;"	e	enum:__anon25
+LOG_NAME	pce.c	45;"	d	file:
+Log	utils.c	/^Log (char *format, ...)$/;"	f
+LongWord	defs.h	/^} LongWord;$/;"	t	typeref:union:__anon13
+Loop6502	gfx.c	/^Loop6502()$/;"	f
+Loop6502	pce.c	/^Loop6502 (M6502 * R)$/;"	f
+M	pce.c	/^M6502 M;$/;"	v
+MARR	hard_pce.h	/^  MARR,	\/*  1 *\/ \/* Memory Adress Read Register *\/$/;"	e	enum:_VDC_REG
+MAWR	hard_pce.h	/^  MAWR,	\/*  0 *\/ \/* Memory Address Write Register *\/$/;"	e	enum:_VDC_REG
+MAXFILENAME	miniunz.c	31;"	d	file:
+MAX_BP	debug.h	9;"	d
+MAX_FREEZED_VALUE	cheat.h	22;"	d
+MAX_GFX_CONTEXT_SLOT_NUMBER	gfx.c	216;"	d	file:
+MAX_INPUT	pce.h	44;"	d
+MAX_INPUT	pce.h	48;"	d
+MAX_INPUT	utils.c	27;"	d	file:
+MAX_MODES	dis_runtime.h	36;"	d
+MAX_MODES	optable.h	30;"	d
+MAX_PAGES	view_inf.h	6;"	d
+MAX_TRY	dis.h	40;"	d
+MAX_USER_BP	debug.h	12;"	d
+MA_ATNI	bios.c	108;"	d	file:
+MA_CBASIS	bios.c	120;"	d	file:
+MA_COS	bios.c	107;"	d	file:
+MA_DIV16S	bios.c	104;"	d	file:
+MA_DIV16U	bios.c	103;"	d	file:
+MA_MUL16S	bios.c	119;"	d	file:
+MA_MUL16U	bios.c	102;"	d	file:
+MA_MUL8S	bios.c	101;"	d	file:
+MA_MUL8U	bios.c	100;"	d	file:
+MA_SIN	bios.c	106;"	d	file:
+MA_SQRT	bios.c	105;"	d	file:
+MESSAGE	lang.c	/^char *MESSAGE[NB_LANG][NB_MESSAGES] = {$/;"	v
+MINIUNZ_H	miniunz.h	17;"	d
+MODIFIED	list_rom.h	23;"	d
+MOUSE1	sys_inp.h	151;"	d
+MOUSE2	sys_inp.h	152;"	d
+MP3_length	lsmp3.c	/^MP3_length (char *argv)$/;"	f
+MP3_playing	sound.c	/^char MP3_playing = 0;$/;"	v
+MP3_playing	sound_prev.c	/^char MP3_playing = 0;$/;"	v
+MSF	cd.h	7;"	d
+MWR	hard_pce.h	/^  MWR,	\/*  9 *\/ \/* Memory Width Register *\/$/;"	e	enum:_VDC_REG
+MaxLine	sprite.h	45;"	d
+MinLine	sprite.h	44;"	d
+NB_BYTE_LINE	edit_ram.c	12;"	d	file:
+NB_CHAR_LINE	view_inf.h	4;"	d
+NB_LANG	lang.h	4;"	d
+NB_LINE	dis.h	42;"	d
+NB_LINE	edit_ram.c	15;"	d	file:
+NB_MESSAGES	lang.h	5;"	d
+NB_ROM	list_rom.h	40;"	d
+NEW_GFX_ENGINE	config.h	149;"	d
+NODATA	hard_pce.h	266;"	d
+NONE	sys_inp.h	138;"	d
+NOT_USED	debug.h	22;"	d
+NO_ROM	pce.c	/^UInt16 NO_ROM;$/;"	v
+NUM_GENRE	lsmp3.c	56;"	d	file:
+OPBUF_SIZE	dis.h	38;"	d
+OPCODE_LOGGING	h6280.c	3049;"	d	file:
+ORIGINAL	list_rom.h	22;"	d
+Op6502	debug.c	/^Op6502 (unsigned int A)$/;"	f
+OverON	pce.h	345;"	d
+PACKAGE	config.h	155;"	d
+PACKAGE_BUGREPORT	config.h	158;"	d
+PACKAGE_DATA_DIR	config.h	161;"	d
+PACKAGE_NAME	config.h	164;"	d
+PACKAGE_STRING	config.h	167;"	d
+PACKAGE_TARNAME	config.h	170;"	d
+PACKAGE_VERSION	config.h	173;"	d
+PAL	sprite.h	41;"	d
+PATH_MAX	config.h	225;"	d
+PATH_MAX	utils.c	26;"	d	file:
+PCM	hard_pce.c	/^UChar *PCM;$/;"	v
+PCM	shared_memory.h	/^  UChar PCM[0x10000];$/;"	m	struct:__anon7
+PCM_stream	sound.c	/^AUDIOSTREAM *PCM_stream;$/;"	v
+PCM_stream	sound_prev.c	/^AUDIOSTREAM *PCM_stream;$/;"	v
+PINBALL_KEY	list_rom.h	19;"	d
+PLAIN_RUN	dis.h	44;"	d
+POPULOUS	list_rom.h	26;"	d
+POSSIBLE_FILENAME_COUNT	pce.c	2006;"	d	file:
+POSSIBLE_LOCATION_COUNT	pce.c	2001;"	d	file:
+PROGRAM_NAME	lsmp3.c	46;"	d	file:
+PROGRAM_VER	lsmp3.c	47;"	d	file:
+PSG	shared_memory.h	/^  UChar PSG[6][8], wave[6][32];$/;"	m	struct:tagIO
+PSG_BALANCE_LEFT	hard_pce.h	48;"	d
+PSG_BALANCE_REG	hard_pce.h	47;"	d
+PSG_BALANCE_RIGHT	hard_pce.h	49;"	d
+PSG_BIOS	bios.c	112;"	d	file:
+PSG_DATA_INDEX_REG	hard_pce.h	51;"	d
+PSG_DDA_DIRECT_ACCESS	hard_pce.h	44;"	d
+PSG_DDA_ENABLE	hard_pce.h	43;"	d
+PSG_DDA_REG	hard_pce.h	42;"	d
+PSG_DDA_VOICE_VOLUME	hard_pce.h	45;"	d
+PSG_DIRECT_ACCESS_BUFSIZE	shared_memory.h	8;"	d
+PSG_DRIVE	bios.c	115;"	d	file:
+PSG_FREQ_LSB_REG	hard_pce.h	38;"	d
+PSG_FREQ_MSB_REG	hard_pce.h	40;"	d
+PSG_NOISE_ENABLE	hard_pce.h	54;"	d
+PSG_NOISE_REG	hard_pce.h	53;"	d
+PSG_VOICE_REG	hard_pce.h	34;"	d
+PSG_VOLUME_REG	hard_pce.h	36;"	d
+PageR	hard_pce.c	/^UChar *PageR[8];$/;"	v
+PageW	hard_pce.c	/^UChar *PageW[8];$/;"	v
+Pal	hard_pce.c	/^UChar  *Pal;$/;"	v
+Pal	shared_memory.h	/^  UChar  Pal[512];$/;"	m	struct:__anon7
+PatchEntry	pce.h	/^} PatchEntry;$/;"	t	typeref:struct:__anon17
+PopRAM	pce.c	/^UChar *PopRAM;$/;"	v
+PopRAMsize	pce.c	/^const UInt32 PopRAMsize = 0x8000;$/;"	v
+PutSprite	sprite.c	/^PutSprite (UChar * P, UChar * C, UChar * C2, UChar * R, int h, int inc)$/;"	f
+PutSpriteHandleFull	sprite.c	/^PutSpriteHandleFull (UChar * P, UChar * C, unsigned long *C2, UChar * R,$/;"	f
+PutSpriteHflip	sprite.c	/^PutSpriteHflip (UChar * P, UChar * C, UChar * C2, UChar * R, int h,$/;"	f	file:
+PutSpriteHflipM	sprite.c	/^PutSpriteHflipM (UChar * P, UChar * C, UChar * C2, UChar * R, int h,$/;"	f	file:
+PutSpriteHflipMakeMask	sprite.c	/^PutSpriteHflipMakeMask (UChar * P, UChar * C, UChar * C2, UChar * R,$/;"	f	file:
+PutSpriteM	sprite.c	/^PutSpriteM (UChar * P, UChar * C, UChar * C2, UChar * R, int h, int inc,$/;"	f
+PutSpriteMakeMask	sprite.c	/^PutSpriteMakeMask (UChar * P, UChar * C, UChar * C2, UChar * R, int h,$/;"	f
+RAM	hard_pce.c	/^UChar *RAM;$/;"	v
+RAM	shared_memory.h	/^  UChar RAM[0x8000];$/;"	m	struct:__anon7
+RAW	cd.h	5;"	d
+RCR	hard_pce.h	/^  RCR,	\/*  6 *\/ \/* Raster Compare Register *\/$/;"	e	enum:_VDC_REG
+REDBOOK	cd.h	8;"	d
+RESTORE_BP	debug.h	15;"	d
+ROM	pce.c	/^UChar *ROM;$/;"	v
+ROMCRC32	pce.c	/^unsigned long ROMCRC32;$/;"	v
+ROMMapR	hard_pce.c	/^UChar *ROMMapR[256];$/;"	v
+ROMMapW	hard_pce.c	/^UChar *ROMMapW[256];$/;"	v
+ROM_size	pce.c	/^int ROM_size;$/;"	v
+ROMmask	pce.c	/^int ROMmask = 0;$/;"	v
+RasHitON	pce.h	346;"	d
+Rd6502	hard_pce.h	72;"	d
+Redbook2HSG	cd.c	/^Redbook2HSG (unsigned redbook)$/;"	f
+Redbook2Time	cd.c	/^Redbook2Time (unsigned redbook, int *Min, int *Sec, int *Fra)$/;"	f
+RefreshLine	sprite.c	/^RefreshLine (int Y1, int Y2)$/;"	f
+RefreshScreen	sprite.c	/^RefreshScreen (void)$/;"	f
+RefreshSprite	sprite.c	/^void (*RefreshSprite) (int Y1, int Y2, UChar bg);$/;"	v
+RefreshSpriteExact	sprite.c	/^RefreshSpriteExact (int Y1, int Y2, UChar bg)$/;"	f
+ResetPCE	pce.c	/^ResetPCE ()$/;"	f
+ResetPCE	pce.c	/^ResetPCE (M6502 * M)$/;"	f
+RunPCE	pce.c	/^RunPCE (void)$/;"	f
+SATB	hard_pce.h	/^  SATB	\/* 13 *\/ \/* Adress of SATB *\/$/;"	e	enum:_VDC_REG
+SATBIntON	pce.h	365;"	d
+SBUF_SIZE_BYTE	sound.h	39;"	d
+SChar	cleantyp.h	/^typedef signed char SChar;$/;"	t
+SDL	psp/osd_psp_snd.c	4;"	d	file:
+SEEK_CUR	unzip.c	60;"	d	file:
+SEEK_END	unzip.c	64;"	d	file:
+SEEK_SET	unzip.c	68;"	d	file:
+SERVER_HOSTNAME_MAX_SIZE	pce.h	87;"	d
+SHM_HANDLE	shared_memory.h	10;"	d
+SHM_ROM_HANDLE	shared_memory.h	11;"	d
+SIZECENTRALDIRITEM	unzip.c	53;"	d	file:
+SIZEOF_CHAR	config.h	185;"	d
+SIZEOF_INT	config.h	188;"	d
+SIZEOF_LONG_INT	config.h	191;"	d
+SIZEOF_SHORT_INT	config.h	194;"	d
+SIZEZIPLOCALHEADER	unzip.c	54;"	d	file:
+SInt16	cleantyp.h	/^typedef signed int SInt16;$/;"	t
+SInt16	cleantyp.h	/^typedef signed short int SInt16;$/;"	t
+SInt32	cleantyp.h	/^typedef signed int SInt32;$/;"	t
+SInt32	cleantyp.h	/^typedef signed long int SInt32;$/;"	t
+SONGNAME_LEN	lsmp3.c	51;"	d	file:
+SOUND_BUF_MS	sound.h	34;"	d
+SOUR	hard_pce.h	/^  SOUR,	\/* 10 *\/ \/* Source Address of DMA transfert *\/$/;"	e	enum:_VDC_REG
+SPBG	sprite.c	321;"	d	file:
+SPM	sprite.c	/^UChar SPM[WIDTH * HEIGHT];$/;"	v
+SPM	sprite.c	/^static UChar *SPM = SPM_raw + XBUF_WIDTH * 64 + 32;$/;"	v	file:
+SPM_raw	sprite.c	/^UChar SPM_raw[XBUF_WIDTH * XBUF_HEIGHT];$/;"	v
+SPONSwitch	sprite.c	/^UChar SPONSwitch = 1;$/;"	v
+SPR	sprite.h	/^} SPR;$/;"	t	typeref:struct:__anon22
+SPRAM	hard_pce.c	/^UInt16 *SPRAM;$/;"	v
+SPRAM	shared_memory.h	/^  UInt16 SPRAM[64 * 4];$/;"	m	struct:__anon7
+SPal	sprite.h	42;"	d
+STDC_HEADERS	config.h	208;"	d
+STEPPING	dis.h	45;"	d
+STRCMPCASENOSENTIVEFUNCTION	unzip.c	244;"	d	file:
+SUPER_GRAPHX	list_rom.h	17;"	d
+SYNAPLINK	sys_inp.h	154;"	d
+ScreenON	pce.h	349;"	d
+ScrollX	sprite.h	49;"	d
+ScrollY	sprite.h	50;"	d
+ScrollYDiff	sprite.c	/^int ScrollYDiff;$/;"	v
+SetPalette	gfx.c	/^void SetPalette(void)$/;"	f
+SpHitON	pce.h	344;"	d
+SpriteON	pce.h	348;"	d
+StartTime	pce.h	/^  UInt32 StartTime;$/;"	m	struct:__anon18
+SubtitleEntry	pce.h	/^} SubtitleEntry;$/;"	t	typeref:struct:__anon18
+TAB_CONST	crc_ctl.h	/^unsigned long TAB_CONST[256] = {$/;"	v
+TAB_CONST	utils.c	/^unsigned long TAB_CONST[256] = {$/;"	v
+TAG_LEN	lsmp3.c	50;"	d	file:
+TIME_WITH_SYS_TIME	config.h	214;"	d
+TIRQ	pce.h	370;"	d
+TO_DISPLAY	gui.h	/^		 } TO_DISPLAY;$/;"	t	typeref:struct:__anon1
+TRACING	dis.h	46;"	d
+TRUE	cleantyp.h	/^  TRUE$/;"	e	enum:__anon8
+TRUE	cleantyp.h	7;"	d
+TRYFREE	unzip.c	50;"	d	file:
+TWO_PART_ROM	list_rom.h	18;"	d
+TagunzFile__	unzip.h	/^typedef struct TagunzFile__ { int unused; } unzFile__; $/;"	s
+Time2Frame	cd.c	/^Time2Frame (int min, int sec, int frame)$/;"	f
+Time2HSG	cd.c	/^Time2HSG (int min, int sec, int frame)$/;"	f
+Time2Redbook	cd.c	/^Time2Redbook (int min, int sec, int frame)$/;"	f
+TimerCount	pce.c	/^UInt32 TimerCount;$/;"	v
+TimerInt	pce.c	/^TimerInt ()$/;"	f
+TimerPeriod	hard_pce.c	/^const UInt32 TimerPeriod = 1097;$/;"	v
+Track	pce.h	/^} Track;$/;"	t	typeref:struct:__anon20
+TrashPCE	pce.c	/^TrashPCE (char *backmemname)$/;"	f
+TrashSound	sound.c	/^TrashSound (void)		\/* Shut down sound  *\/$/;"	f
+TrashSound	sound_prev.c	/^TrashSound (void)    \/* Shut down sound  *\/$/;"	f
+UChar	cleantyp.h	/^typedef unsigned char UChar;$/;"	t
+UCount	gfx.c	/^static int UCount = 0;$/;"	v	file:
+UInt16	cleantyp.h	/^typedef unsigned int UInt16;$/;"	t
+UInt16	cleantyp.h	/^typedef unsigned short int UInt16;$/;"	t
+UInt32	cleantyp.h	/^typedef unsigned int UInt32;$/;"	t
+UInt32	cleantyp.h	/^typedef unsigned long int UInt32;$/;"	t
+UNZ_BADZIPFILE	unzip.h	67;"	d
+UNZ_BUFSIZE	unzip.c	39;"	d	file:
+UNZ_CRCERROR	unzip.h	69;"	d
+UNZ_END_OF_LIST_OF_FILE	unzip.h	63;"	d
+UNZ_EOF	unzip.h	65;"	d
+UNZ_ERRNO	unzip.h	64;"	d
+UNZ_INTERNALERROR	unzip.h	68;"	d
+UNZ_MAXFILENAMEINZIP	unzip.c	43;"	d	file:
+UNZ_OK	unzip.h	62;"	d
+UNZ_PARAMERROR	unzip.h	66;"	d
+UPeriod	pce.c	/^int UPeriod = 0;$/;"	v
+USA	list_rom.h	28;"	d
+US_ENCODED	list_rom.h	25;"	d
+US_encoded_card	pce.c	/^UChar US_encoded_card = 0;$/;"	v
+VBlankON	pce.h	347;"	d
+VCE	shared_memory.h	/^  pair VCE[0x200]; \/* palette info *\/$/;"	m	struct:tagIO
+VCR	hard_pce.h	/^  VCR,	\/*  E *\/ \/* Vertical counter between restarting of display*\/$/;"	e	enum:_VDC_REG
+VDC	shared_memory.h	/^  pair VDC[32];    \/* value of each VDC register *\/$/;"	m	struct:tagIO
+VDC_BSY	pce.h	357;"	d
+VDC_CR	pce.h	351;"	d
+VDC_DMAfinish	pce.h	362;"	d
+VDC_DS	pce.h	354;"	d
+VDC_DV	pce.h	355;"	d
+VDC_InVBlank	pce.h	361;"	d
+VDC_OR	pce.h	352;"	d
+VDC_Over	pce.h	359;"	d
+VDC_RR	pce.h	353;"	d
+VDC_RasHit	pce.h	360;"	d
+VDC_SATBfinish	pce.h	363;"	d
+VDC_SpHit	pce.h	358;"	d
+VDC_VD	pce.h	356;"	d
+VDW	hard_pce.h	/^  VDW,	\/*  D *\/ \/* Vertical Definition *\/$/;"	e	enum:_VDC_REG
+VEC_BRK	h6280.h	267;"	d
+VEC_IRQ	h6280.h	265;"	d
+VEC_IRQ2	h6280.h	266;"	d
+VEC_NMI	h6280.h	263;"	d
+VEC_RESET	h6280.h	262;"	d
+VEC_TIMER	h6280.h	264;"	d
+VERSION	config.h	217;"	d
+VGA	pce.h	71;"	d
+VPR	hard_pce.h	/^  VPR,	\/*  C *\/ \/* Higher byte = VDS, lower byte = VSW *\/$/;"	e	enum:_VDC_REG
+VRAM	hard_pce.c	/^UChar  *VRAM;$/;"	v
+VRAM	shared_memory.h	/^  UChar VRAM[VRAMSIZE];$/;"	m	struct:__anon7
+VRAM2	hard_pce.c	/^UChar *VRAM2;$/;"	v
+VRAM2	shared_memory.h	/^  UChar VRAM2[VRAMSIZE];$/;"	m	struct:__anon7
+VRAMS	hard_pce.c	/^UChar *VRAMS;$/;"	v
+VRAMS	shared_memory.h	/^  UChar VRAMS[VRAMSIZE];$/;"	m	struct:__anon7
+VRAMSIZE	shared_memory.h	6;"	d
+VRR	hard_pce.h	242;"	d
+VWR	hard_pce.h	/^  VWR,	\/*  2 *\/ \/* VRAM Read Register \/ VRAM Write Register *\/$/;"	e	enum:_VDC_REG
+V_FLIP	sprite.c	319;"	d	file:
+W	shared_memory.h	/^  UInt16 W;$/;"	m	union:__anon5
+WIDTH	gfx.h	6;"	d
+WIDTH	pce.h	17;"	d
+WORD	cleantyp.h	/^typedef unsigned short int WORD;$/;"	t
+WORD	sound.h	13;"	d
+WRAM	hard_pce.c	/^UChar  *WRAM;$/;"	v
+WRAM	shared_memory.h	/^  UChar WRAM[0x2000];$/;"	m	struct:__anon7
+WRITEBUFFERSIZE	miniunz.c	30;"	d	file:
+Word	defs.h	/^} Word;$/;"	t	typeref:union:__anon11
+WordsOfLong	defs.h	/^} WordsOfLong;$/;"	t	typeref:struct:__anon12
+Wr6502	hard_pce.h	70;"	d
+WriteBuffer	mix.c	/^void WriteBuffer(char *buf, int ch, unsigned dwSize)$/;"	f
+WriteBufferAdpcm8	mix.c	/^UInt32 WriteBufferAdpcm8 (UChar *buf, UInt32 begin, UInt32 size, SChar *Index, SInt32 *PreviousValue)$/;"	f
+XBUF_HEIGHT	gfx.h	19;"	d
+XBUF_HEIGHT	gfx.h	24;"	d
+XBUF_WIDTH	gfx.h	18;"	d
+XBUF_WIDTH	gfx.h	23;"	d
+YEAR_LEN	lsmp3.c	54;"	d	file:
+ZW	pce.c	67;"	d	file:
+_DJGPP_INCLUDE_CD_H	cd.h	2;"	d
+_DJGPP_INCLUDE_DIS_CST_H	dis_cst.h	2;"	d
+_DJGPP_INCLUDE_DIS_CST_H	optable.h	2;"	d
+_DJGPP_INCLUDE_EDIT_RAM	edit_ram.h	2;"	d
+_DJGPP_INCLUDE_FOLLOWOP_H	followop.h	2;"	d
+_DJGPP_INCLUDE_HCD_H	hcd.h	2;"	d
+_DJGPP_INCLUDE_INTERF_H	interf.h	2;"	d
+_DJGPP_INCLUDE_LSMP3_H	lsmp3.h	2;"	d
+_DJGPP_INCLUDE_MIX_H	mix.h	2;"	d
+_DJGPP_INCLUDE_VIEW_INF_H	view_inf.h	2;"	d
+_DJGPP_INCLUDE_VIEW_ZP	view_zp.h	2;"	d
+_DJ_INCLUDE_GUI_H	gui.h	2;"	d
+_GFX_H_	gfx.h	2;"	d
+_INCLUDE_CHEAT_H	cheat.h	2;"	d
+_INCLUDE_CLEANTYP_H	cleantyp.h	2;"	d
+_INCLUDE_CONFIG_H	iniconfig.h	2;"	d
+_INCLUDE_DEBUG_H	debug.h	2;"	d
+_INCLUDE_DIS_H	dis.h	7;"	d
+_INCLUDE_HARD_PCE_H	hard_pce.h	11;"	d
+_INCLUDE_HUGO_H	hugo.h	2;"	d
+_INCLUDE_LANG_H	lang.h	2;"	d
+_INCLUDE_LIST_ROM_H	list_rom.h	13;"	d
+_INCLUDE_OSD_SND_H	psp/osd_psp_snd.h	2;"	d
+_INCLUDE_PCECD_H	pcecd.h	26;"	d
+_INCLUDE_PCE_H	pce.h	3;"	d
+_INCLUDE_SYS_CD_H	sys_cd.h	2;"	d
+_INCLUDE_SYS_DEP_H	sys_dep.h	2;"	d
+_INCLUDE_SYS_GFX_H	sys_gfx.h	2;"	d
+_INCLUDE_SYS_INP_H	sys_inp.h	2;"	d
+_INCLUDE_SYS_MISC_H	sys_misc.h	2;"	d
+_INCLUDE_SYS_SND_H	sys_snd.h	2;"	d
+_PC_	dis.h	36;"	d
+_SOUND_H_	sound.h	2;"	d
+_SPRITE_H_	sprite.h	2;"	d
+_TRANS_FX_H_	trans_fx.h	20;"	d
+_UTILS_C	utils.h	17;"	d
+_VDC_REG	hard_pce.h	/^enum _VDC_REG {$/;"	g
+__wild	lsmp3.c	/^int *__wild = &__wildcard;$/;"	v
+_ah	bios.c	123;"	d	file:
+_al	bios.c	122;"	d	file:
+_ax	bios.c	131;"	d	file:
+_bh	bios.c	125;"	d	file:
+_bl	bios.c	124;"	d	file:
+_bx	bios.c	132;"	d	file:
+_ch	bios.c	127;"	d	file:
+_cl	bios.c	126;"	d	file:
+_cx	bios.c	133;"	d	file:
+_dh	bios.c	129;"	d	file:
+_dl	bios.c	128;"	d	file:
+_dx	bios.c	134;"	d	file:
+_unz_H	unzip.h	42;"	d
+abs_operand	h6280.c	101;"	d	file:
+absind	format.c	/^absind (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+absindx	format.c	/^absindx (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+absol	format.c	/^absol (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+absx	format.c	/^absx (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+absx_operand	h6280.c	102;"	d	file:
+absy	format.c	/^absy (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+absy_operand	h6280.c	103;"	d	file:
+ac_base	shared_memory.h	/^  UInt32 ac_base[4];     \/* base address for AC ram accessing *\/$/;"	m	struct:tagIO
+ac_control	shared_memory.h	/^  UChar  ac_control[4];  \/* bit 7: unused$/;"	m	struct:tagIO
+ac_extra_mem	hard_pce.c	/^UChar *ac_extra_mem;$/;"	v
+ac_extra_mem	shared_memory.h	/^  UChar ac_extra_mem[0x200000];$/;"	m	struct:__anon7
+ac_incr	shared_memory.h	/^  UInt16 ac_incr[4];     \/* incrment value after read or write accordingly to the control bit *\/$/;"	m	struct:tagIO
+ac_offset	shared_memory.h	/^  UInt16 ac_offset[4];   \/* offset address for AC ram accessing *\/$/;"	m	struct:tagIO
+ac_shift	shared_memory.h	/^  UInt32 ac_shift;$/;"	m	struct:tagIO
+ac_shiftbits	shared_memory.h	/^  UChar  ac_shiftbits;   \/* number of bits to shift by *\/$/;"	m	struct:tagIO
+ac_unknown4	shared_memory.h	/^  UChar  ac_unknown4;$/;"	m	struct:tagIO
+adc	h6280.c	/^UChar adc(UChar acc, UChar val) {$/;"	f	file:
+adc_abs	h6280.c	/^int adc_abs(void) {$/;"	f
+adc_absx	h6280.c	/^int adc_absx(void) {$/;"	f
+adc_absy	h6280.c	/^int adc_absy(void) {$/;"	f
+adc_imm	h6280.c	/^int adc_imm(void) {$/;"	f
+adc_zp	h6280.c	/^int adc_zp(void) {$/;"	f
+adc_zpind	h6280.c	/^int adc_zpind(void) {$/;"	f
+adc_zpindx	h6280.c	/^int adc_zpindx(void) {$/;"	f
+adc_zpindy	h6280.c	/^int adc_zpindy(void) {$/;"	f
+adc_zpx	h6280.c	/^int adc_zpx(void) {$/;"	f
+addr_info	dis_cst.h	/^mode_struct addr_info[MAX_MODES] = {$/;"	v
+addr_info_debug	optable.c	/^mode_struct_debug addr_info_debug[MAX_MODES] = {$/;"	v
+addr_mode	defs.h	/^   UInt16  addr_mode;$/;"	m	struct:op
+addr_mode	dis_cst.h	/^   unsigned int addr_mode;$/;"	m	struct:op
+addr_mode	optable.h	/^   int addr_mode;$/;"	m	struct:op_debug
+adpcm_dmaptr	shared_memory.h	/^  UInt16 adpcm_dmaptr;$/;"	m	struct:tagIO
+adpcm_firstread	shared_memory.h	/^  SInt32 backup,adpcm_firstread;$/;"	m	struct:tagIO
+adpcm_pptr	shared_memory.h	/^  UInt32 adpcm_pptr; \/* to know where to begin playing adpcm (in nibbles) *\/$/;"	m	struct:tagIO
+adpcm_psize	shared_memory.h	/^  UInt32 adpcm_psize; \/* to know how many 4-bit samples to play *\/$/;"	m	struct:tagIO
+adpcm_ptr	shared_memory.h	/^  pair adpcm_ptr;$/;"	m	struct:tagIO
+adpcm_rate	shared_memory.h	/^  UChar adpcm_rate;$/;"	m	struct:tagIO
+adpcm_rptr	shared_memory.h	/^  UInt16 adpcm_rptr,adpcm_wptr;$/;"	m	struct:tagIO
+adpcm_wptr	shared_memory.h	/^  UInt16 adpcm_rptr,adpcm_wptr;$/;"	m	struct:tagIO
+adpcmbuf	sound.c	/^char *adpcmbuf;$/;"	v
+adpcmbuf	sound_prev.c	/^char *adpcmbuf;$/;"	v
+all_frame	lang.h	10;"	d
+alleg_flic_unused	pce.h	75;"	d
+alleg_gui_unused	pce.h	76;"	d
+alleg_mouse_unused	pce.h	74;"	d
+alloc_spr	lang.h	38;"	d
+and_abs	h6280.c	/^int and_abs(void) {$/;"	f
+and_absx	h6280.c	/^int and_absx(void) {$/;"	f
+and_absy	h6280.c	/^int and_absy(void) {$/;"	f
+and_imm	h6280.c	/^int and_imm(void) {$/;"	f
+and_zp	h6280.c	/^int and_zp(void) {$/;"	f
+and_zpind	h6280.c	/^int and_zpind(void) {$/;"	f
+and_zpindx	h6280.c	/^int and_zpindx(void) {$/;"	f
+and_zpindy	h6280.c	/^int and_zpindy(void) {$/;"	f
+and_zpx	h6280.c	/^int and_zpx(void) {$/;"	f
+archived	gui.h	/^       char archived[13];$/;"	m	struct:__anon3
+argp	iniconfig.c	/^static struct argp argp = { options, parse_opt, args_doc, doc };$/;"	v	typeref:struct:argp	file:
+argp_program_bug_address	iniconfig.c	/^const char *argp_program_bug_address = "<zeograd@zeograd.com>";$/;"	v
+argp_program_version	iniconfig.c	/^const char *argp_program_version = "Hu-Go! 2.12";$/;"	v
+args_doc	iniconfig.c	/^static char args_doc[] = "<rom filename> <BRAM filename>";$/;"	v	file:
+asl_a	h6280.c	/^int asl_a(void) {$/;"	f
+asl_abs	h6280.c	/^int asl_abs(void) {$/;"	f
+asl_absx	h6280.c	/^int asl_absx(void) {$/;"	f
+asl_zp	h6280.c	/^int asl_zp(void) {$/;"	f
+asl_zpx	h6280.c	/^int asl_zpx(void) {$/;"	f
+atr	sprite.h	/^	short y,x,no,atr;$/;"	m	struct:__anon22
+audio_init_failed	lang.h	32;"	d
+audio_inited	lang.h	33;"	d
+audio_len	mix.c	/^unsigned int  audio_len=0;$/;"	v
+audio_output_file	sound.c	/^static FILE* audio_output_file = NULL;$/;"	v	file:
+audio_output_file	sound_prev.c	/^static FILE* audio_output_file = NULL;$/;"	v	file:
+autoI	sys_inp.h	/^	UChar autoI;$/;"	m	struct:__anon26
+autoII	sys_inp.h	/^	UChar autoII;$/;"	m	struct:__anon26
+autodetect_mode	lang.h	29;"	d
+b	defs.h	/^  BytesOfWord  b;$/;"	m	union:__anon11
+b	gfx.c	/^  UChar r,g,b;$/;"	m	struct:__anon28	file:
+backup	shared_memory.h	/^  SInt32 backup,adpcm_firstread;$/;"	m	struct:tagIO
+backup_mem	hugo.c	/^static char backup_mem[PATH_MAX];$/;"	v	file:
+backward_one_line	dis.c	/^backward_one_line ()$/;"	f
+bank_set	hard_pce.c	/^bank_set (UChar P, UChar V)$/;"	f
+basefilename	gui.h	/^       char basefilename[13];$/;"	m	struct:__anon2
+basefilename	gui.h	/^       char basefilename[13];$/;"	m	struct:__anon3
+bbr0	h6280.c	/^int bbr0(void) {$/;"	f
+bbr1	h6280.c	/^int bbr1(void) {$/;"	f
+bbr2	h6280.c	/^int bbr2(void) {$/;"	f
+bbr3	h6280.c	/^int bbr3(void) {$/;"	f
+bbr4	h6280.c	/^int bbr4(void) {$/;"	f
+bbr5	h6280.c	/^int bbr5(void) {$/;"	f
+bbr6	h6280.c	/^int bbr6(void) {$/;"	f
+bbr7	h6280.c	/^int bbr7(void) {$/;"	f
+bbs0	h6280.c	/^int bbs0(void) {$/;"	f
+bbs1	h6280.c	/^int bbs1(void) {$/;"	f
+bbs2	h6280.c	/^int bbs2(void) {$/;"	f
+bbs3	h6280.c	/^int bbs3(void) {$/;"	f
+bbs4	h6280.c	/^int bbs4(void) {$/;"	f
+bbs5	h6280.c	/^int bbs5(void) {$/;"	f
+bbs6	h6280.c	/^int bbs6(void) {$/;"	f
+bbs7	h6280.c	/^int bbs7(void) {$/;"	f
+bcc	h6280.c	/^int bcc(void) {$/;"	f
+bcdbin	pce.c	/^unsigned char bcdbin[0x100] = {$/;"	v
+bcs	h6280.c	/^int bcs(void) {$/;"	f
+beg_fra	pce.h	/^  UChar beg_fra;$/;"	m	struct:__anon20
+beg_lsn	pce.h	/^  UInt32 beg_lsn;$/;"	m	struct:__anon20
+beg_min	pce.h	/^  UChar beg_min;$/;"	m	struct:__anon20
+beg_sec	pce.h	/^  UChar beg_sec;$/;"	m	struct:__anon20
+beq	h6280.c	/^int beq(void) {$/;"	f
+bg_h	shared_memory.h	/^  Int32 bg_h;      \/* number of tiles vertically in virtual screen *\/$/;"	m	struct:tagIO
+bg_w	shared_memory.h	/^  Int32 bg_w;      \/* number of tiles horizontaly in virtual screen *\/$/;"	m	struct:tagIO
+bh	defs.h	/^  UChar bh;$/;"	m	struct:__anon10
+big_buf	sound.c	/^UChar *big_buf;$/;"	v
+big_buf	sound_prev.c	/^UChar *big_buf;$/;"	v
+bigindextobank	cheat.c	/^bigindextobank (UInt32 index)$/;"	f	file:
+bigtosmallindex	cheat.c	/^bigtosmallindex(UInt32 index)$/;"	f
+binbcd	pce.c	/^unsigned char binbcd[0x100] = {$/;"	v
+bit_abs	h6280.c	/^int bit_abs(void) {$/;"	f
+bit_absx	h6280.c	/^int bit_absx(void) {$/;"	f
+bit_imm	h6280.c	/^int bit_imm(void) {$/;"	f
+bit_zp	h6280.c	/^int bit_zp(void) {$/;"	f
+bit_zpx	h6280.c	/^int bit_zpx(void) {$/;"	f
+bl	defs.h	/^  UChar bl;$/;"	m	struct:__anon10
+bmdefault	pce.c	/^char *bmdefault = NULL;$/;"	v
+bmi	h6280.c	/^int bmi(void) {$/;"	f
+bne	h6280.c	/^int bne(void) {$/;"	f
+boolean	cleantyp.h	/^} boolean;$/;"	t	typeref:enum:__anon8
+bpl	h6280.c	/^int bpl(void) {$/;"	f
+bra	h6280.c	/^int bra(void) {$/;"	f
+brek	h6280.c	/^int brek(void) {$/;"	f
+bsr	h6280.c	/^int bsr(void) {$/;"	f
+builtin_system_used	pce.c	/^UChar builtin_system_used = 0;$/;"	v
+bvc	h6280.c	/^int bvc(void) {$/;"	f
+bvs	h6280.c	/^int bvs(void) {$/;"	f
+byte_before_the_zipfile	unzip.c	/^	uLong byte_before_the_zipfile;\/* byte before the zipfile, (>0 for sfx)*\/$/;"	m	struct:__anon14	file:
+byte_before_the_zipfile	unzip.c	/^	uLong byte_before_the_zipfile;\/* byte before the zipfile, (>0 for sfx)*\/$/;"	m	struct:__anon15	file:
+byte_set	lang.h	34;"	d
+calc_fullscreen_aspect	gfx.c	/^void calc_fullscreen_aspect(unsigned short physical_screen_width,$/;"	f
+can_blit	pce.c	/^static volatile unsigned char can_blit = 1;$/;"	v	file:
+can_write_debug	pce.c	/^UChar can_write_debug = 0;$/;"	v
+cant_set_gmode	lang.h	27;"	d
+cart_name	pce.c	/^char cart_name[PATH_MAX] = "default.pce";$/;"	v
+cart_reload	pce.c	/^UChar cart_reload = 0;$/;"	v
+cd_buf	pce.c	/^UChar *cd_buf = NULL;$/;"	v
+cd_drive_handle	psp/osd_psp_cd.c	/^int cd_drive_handle = 0;$/;"	v
+cd_extra_mem	hard_pce.c	/^UChar *cd_extra_mem;$/;"	v
+cd_extra_mem	shared_memory.h	/^  UChar cd_extra_mem[0x10000];$/;"	m	struct:__anon7
+cd_extra_super_mem	hard_pce.c	/^UChar *cd_extra_super_mem;$/;"	v
+cd_extra_super_mem	shared_memory.h	/^  UChar cd_extra_super_mem[0x30000];$/;"	m	struct:__anon7
+cd_fade	pcecd.c	/^UChar cd_fade;$/;"	v
+cd_port_1800	shared_memory.h	/^  UChar cd_port_1800;$/;"	m	struct:tagIO
+cd_port_1801	shared_memory.h	/^  UChar cd_port_1801;$/;"	m	struct:tagIO
+cd_port_1802	shared_memory.h	/^  UChar cd_port_1802;$/;"	m	struct:tagIO
+cd_port_1804	shared_memory.h	/^  UChar cd_port_1804;$/;"	m	struct:tagIO
+cd_port_180b	pcecd.c	/^UChar cd_port_180b = 0;$/;"	v
+cd_read_buffer	hard_pce.c	/^\/**\/ UChar * cd_read_buffer;$/;"	v
+cd_sector_buffer	hard_pce.c	/^UChar *cd_sector_buffer;$/;"	v
+cd_sector_buffer	shared_memory.h	/^  UChar cd_sector_buffer[0x2000];$/;"	m	struct:__anon7
+cd_sectorcnt	hard_pce.c	/^\/**\/ UChar cd_sectorcnt;$/;"	v
+cdbios_functions	bios.c	/^const char *cdbios_functions(int index)$/;"	f
+cdsystem_path	iniconfig.c	/^char cdsystem_path[PATH_MAX];$/;"	v
+cdsystem_path	pce.c	/^char cdsystem_path[255] = "\/hugo\/syscard.pce";$/;"	v
+central_pos	unzip.c	/^	uLong central_pos;          \/* position of the beginning of the central dir*\/$/;"	m	struct:__anon15	file:
+change_pce_screen_height	gfx.c	/^void change_pce_screen_height()$/;"	f
+change_value	debug.c	/^UChar change_value (int X, int Y, UChar length, UInt32 * result)$/;"	f
+check_char	pce.c	/^static char *check_char (char *s, char c)$/;"	f	file:
+chk_flnz_8bit	h6280.c	113;"	d	file:
+cla	h6280.c	/^int cla(void) {$/;"	f
+clc	h6280.c	/^int clc(void) {$/;"	f
+cld	h6280.c	/^int cld(void) {$/;"	f
+cleanup	hugo.c	/^cleanup ()$/;"	f
+clear_buffer	lang.h	25;"	d
+cli	h6280.c	/^int cli(void) {$/;"	f
+clv	h6280.c	/^int clv(void) {$/;"	f
+clx	h6280.c	/^int clx(void) {$/;"	f
+cly	h6280.c	/^int cly(void) {$/;"	f
+cmp_abs	h6280.c	/^int cmp_abs(void) {$/;"	f
+cmp_absx	h6280.c	/^int cmp_absx(void) {$/;"	f
+cmp_absy	h6280.c	/^int cmp_absy(void) {$/;"	f
+cmp_imm	h6280.c	/^int cmp_imm(void) {$/;"	f
+cmp_zp	h6280.c	/^int cmp_zp(void) {$/;"	f
+cmp_zpind	h6280.c	/^int cmp_zpind(void) {$/;"	f
+cmp_zpindx	h6280.c	/^int cmp_zpindx(void) {$/;"	f
+cmp_zpindy	h6280.c	/^int cmp_zpindy(void) {$/;"	f
+cmp_zpx	h6280.c	/^int cmp_zpx(void) {$/;"	f
+compressed_size	unzip.h	/^    uLong compressed_size;      \/* compressed size                 4 bytes *\/ $/;"	m	struct:unz_file_info_s
+compression_method	unzip.c	/^	uLong compression_method;   \/* compression method (0==store) *\/$/;"	m	struct:__anon14	file:
+compression_method	unzip.h	/^    uLong compression_method;   \/* compression method              2 bytes *\/$/;"	m	struct:unz_file_info_s
+config_ar	iniconfig.c	/^config_var *config_ar;$/;"	v
+config_ar_index	iniconfig.c	/^int config_ar_index = 0;$/;"	v
+config_ar_size_max	iniconfig.c	/^const int config_ar_size_max = 2000;$/;"	v
+config_file	iniconfig.c	/^char config_file[PATH_MAX], config_file_tmp[PATH_MAX];$/;"	v
+config_file_tmp	iniconfig.c	/^char config_file[PATH_MAX], config_file_tmp[PATH_MAX];$/;"	v
+config_var	iniconfig.c	/^} config_var;$/;"	t	typeref:struct:__anon16	file:
+configure_joypads	pce.h	/^  boolean configure_joypads;$/;"	m	struct:hugo_options
+corr	gui.h	/^		 unsigned corr;$/;"	m	struct:__anon1
+cpx_abs	h6280.c	/^int cpx_abs(void) {$/;"	f
+cpx_imm	h6280.c	/^int cpx_imm(void) {$/;"	f
+cpx_zp	h6280.c	/^int cpx_zp(void) {$/;"	f
+cpy_abs	h6280.c	/^int cpy_abs(void) {$/;"	f
+cpy_imm	h6280.c	/^int cpy_imm(void) {$/;"	f
+cpy_zp	h6280.c	/^int cpy_zp(void) {$/;"	f
+cr	gfx.h	/^	typeof(io.VDC[CR].W) cr;$/;"	m	struct:__anon21
+crc	unzip.h	/^    uLong crc;                  \/* crc-32                          4 bytes *\/$/;"	m	struct:unz_file_info_s
+crc32	unzip.c	/^	uLong crc32;                \/* crc32 of all data uncompressed *\/$/;"	m	struct:__anon14	file:
+crc32_wait	unzip.c	/^	uLong crc32_wait;           \/* crc32 we must obtain after decompress all *\/$/;"	m	struct:__anon14	file:
+cur_file_info	unzip.c	/^	unz_file_info cur_file_info; \/* public info about the current file in zip*\/$/;"	m	struct:__anon15	file:
+cur_file_info_internal	unzip.c	/^	unz_file_info_internal cur_file_info_internal; \/* private info about it*\/$/;"	m	struct:__anon15	file:
+current_file_ok	unzip.c	/^	uLong current_file_ok;      \/* flag about the usability of the current file*\/$/;"	m	struct:__anon15	file:
+current_freezed_values	cheat.c	/^unsigned char current_freezed_values;$/;"	v
+cvtnum	debug.c	/^UInt32 cvtnum (char *string)$/;"	f
+cyclecount	hard_pce.h	187;"	d
+cyclecountold	hard_pce.h	192;"	d
+cycles	hard_pce.h	233;"	d
+data	pce.h	/^  char data[32];$/;"	m	struct:__anon18
+datafile	pce.c	/^DATAFILE *datafile;$/;"	v
+date	list_rom.h	/^  char *name, *producer, *date, *note;$/;"	m	struct:pce_rom_info
+debug_on_beginning	pce.c	/^UChar debug_on_beginning = 0;$/;"	v
+dec_a	h6280.c	/^int dec_a(void) {$/;"	f
+dec_abs	h6280.c	/^int dec_abs(void) {$/;"	f
+dec_absx	h6280.c	/^int dec_absx(void) {$/;"	f
+dec_zp	h6280.c	/^int dec_zp(void) {$/;"	f
+dec_zpx	h6280.c	/^int dec_zpx(void) {$/;"	f
+default_joy_mapping	iniconfig.c	/^static int default_joy_mapping[J_MAX] = {0, 0, 0, 0,$/;"	v	file:
+delete_file_tmp	pce.c	/^delete_file_tmp (char *name, int dummy, int dummy2)$/;"	f
+device_found	lang.h	31;"	d
+dex	h6280.c	/^int dex(void) {$/;"	f
+dey	h6280.c	/^int dey(void) {$/;"	f
+dis_key	dis.c	/^dis_key ()$/;"	f
+disass_menu	debug.c	/^disass_menu ()$/;"	f
+disassemble	dis.c	/^disassemble ()$/;"	f
+disk_num_start	unzip.h	/^    uLong disk_num_start;       \/* disk number start               2 bytes *\/$/;"	m	struct:unz_file_info_s
+display_debug_help	debug.c	/^display_debug_help ()$/;"	f
+dispose_config	iniconfig.c	/^dispose_config (void)$/;"	f
+do_extract_currentfile_in_memory	miniunz.c	/^do_extract_currentfile_in_memory (unzFile uf, size_t * unzipped_size)$/;"	f	file:
+do_extract_onefile_in_memory	miniunz.c	/^do_extract_onefile_in_memory (unzFile uf, const char *filename,$/;"	f	file:
+doc	iniconfig.c	/^static char doc[] =$/;"	v	file:
+dosDate	unzip.h	/^    uLong dosDate;              \/* last mod file date in Dos fmt   4 bytes *\/$/;"	m	struct:unz_file_info_s
+draw	sys_gfx.h	/^        void (*draw)(void);$/;"	m	struct:__anon4
+ds_nChannels	sound.c	/^UInt32 ds_nChannels = 1;$/;"	v
+ds_nChannels	sound_prev.c	/^UInt32 ds_nChannels = 1;$/;"	v
+dump_audio_chunck	sound.c	/^void dump_audio_chunck(UChar* content, int length)$/;"	f
+dump_audio_chunck	sound_prev.c	/^void dump_audio_chunck(UChar* content, int length)$/;"	f
+dump_config	iniconfig.c	/^dump_config (char *filename)$/;"	f
+dump_off	lang.h	18;"	d
+dump_on	lang.h	17;"	d
+dump_pce_core	h6280.c	/^void dump_pce_core() {$/;"	f
+dump_pce_cpu_environment	hard_pce.c	/^void dump_pce_cpu_environment() {$/;"	f
+dump_raw_frame	gfx.c	/^void dump_raw_frame(char* output_buffer)$/;"	f
+dump_rgb_frame	gfx.c	/^void dump_rgb_frame(char* output_buffer)$/;"	f
+dump_snd	psp/osd_psp_machine.c	/^char dump_snd = 0;$/;"	v
+dump_uyv_frame_separated	gfx.c	/^void dump_uyv_frame_separated(char* output_buffer_u, char* output_buffer_y, char* output_buffer_v)$/;"	f
+dump_uyvy_frame	gfx.c	/^void dump_uyvy_frame(char* output_buffer)$/;"	f
+dump_video_frame	gfx.c	/^void dump_video_frame()$/;"	f
+dump_yyuv_frame	gfx.c	/^void dump_yyuv_frame(char* output_buffer)$/;"	f
+dwNewPos	sound.c	/^UInt32 dwNewPos;$/;"	v
+dwNewPos	sound_prev.c	/^UInt32 dwNewPos;$/;"	v
+eagle_asked	lang.h	47;"	d
+eagle_mode_not_init	lang.h	48;"	d
+edit_ram	edit_ram.c	/^edit_ram ()$/;"	f
+effectively_played	pce.c	/^char effectively_played = 0;$/;"	v
+end_x	gfx.h	/^  unsigned short end_x, end_y;$/;"	m	struct:generic_rect
+end_y	gfx.h	/^  unsigned short end_x, end_y;$/;"	m	struct:generic_rect
+eor_abs	h6280.c	/^int eor_abs(void) {$/;"	f
+eor_absx	h6280.c	/^int eor_absx(void) {$/;"	f
+eor_absy	h6280.c	/^int eor_absy(void) {$/;"	f
+eor_imm	h6280.c	/^int eor_imm(void) {$/;"	f
+eor_zp	h6280.c	/^int eor_zp(void) {$/;"	f
+eor_zpind	h6280.c	/^int eor_zpind(void) {$/;"	f
+eor_zpindx	h6280.c	/^int eor_zpindx(void) {$/;"	f
+eor_zpindy	h6280.c	/^int eor_zpindy(void) {$/;"	f
+eor_zpx	h6280.c	/^int eor_zpx(void) {$/;"	f
+exe_go	h6280.c	/^void exe_go(void) $/;"	f
+exe_instruct	h6280.c	/^void exe_instruct(void) {$/;"	f
+exit_message	pce.c	/^char exit_message[256] = "";$/;"	v
+external_control_cpu	hard_pce.h	197;"	d
+external_fa	unzip.h	/^    uLong external_fa;          \/* external file attributes        4 bytes *\/$/;"	m	struct:unz_file_info_s
+extract_file_in_memory	miniunz.c	/^extract_file_in_memory (char *zipfilename, char *archivedfile,$/;"	f
+fBufferEmpty	lsmp3.c	/^fBufferEmpty (char *pBuffer)$/;"	f
+failed_init	lang.h	24;"	d
+fgetw	cheat.c	/^inline UInt16 fgetw (FILE* F)$/;"	f
+file	unzip.c	/^	FILE* file;                 \/* io structore of the zipfile *\/$/;"	m	struct:__anon14	file:
+file	unzip.c	/^	FILE* file;                 \/* io structore of the zipfile *\/$/;"	m	struct:__anon15	file:
+file_exists	utils.c	/^int file_exists(char* name_to_check)$/;"	f
+file_in_zip_read_info_s	unzip.c	/^} file_in_zip_read_info_s;$/;"	t	typeref:struct:__anon14	file:
+file_size	cheat.c	/^long file_size (char* file_name)$/;"	f
+filename	pce.h	/^  char filename[256];$/;"	m	struct:__anon20
+filesize	list_rom.c	/^filesize (FILE * F)$/;"	f
+fill_HCD_info	hcd.c	/^fill_HCD_info (char *name)$/;"	f
+fill_cd_info	pce.c	/^fill_cd_info ()$/;"	f
+find_possible_filename_in_zip	miniunz.c	/^find_possible_filename_in_zip (char *zipfilename)$/;"	f
+firedI	sys_inp.h	/^	UChar firedI;$/;"	m	struct:__anon26
+firedII	sys_inp.h	/^	UChar firedII;$/;"	m	struct:__anon26
+first_sector	pce.c	/^UInt32 first_sector = 0;$/;"	v
+flag	debug.h	/^  UChar flag;$/;"	m	struct:__anon23
+flag	unzip.h	/^    uLong flag;                 \/* general purpose bit flag        2 bytes *\/$/;"	m	struct:unz_file_info_s
+flags	list_rom.h	/^  unsigned short flags;$/;"	m	struct:pce_rom_info
+flnz_list	h6280.c	/^UChar flnz_list[256] = {$/;"	v
+follow_BBRi	followop.c	/^UInt16 follow_BBRi (UInt16 where)$/;"	f
+follow_BBSi	followop.c	/^UInt16 follow_BBSi (UInt16 where)$/;"	f
+follow_BCC	followop.c	/^UInt16 follow_BCC (UInt16 where)$/;"	f
+follow_BCS	followop.c	/^UInt16 follow_BCS (UInt16 where)$/;"	f
+follow_BEQ	followop.c	/^UInt16 follow_BEQ (UInt16 where)$/;"	f
+follow_BMI	followop.c	/^UInt16 follow_BMI (UInt16 where)$/;"	f
+follow_BNE	followop.c	/^UInt16 follow_BNE (UInt16 where)$/;"	f
+follow_BPL	followop.c	/^UInt16 follow_BPL (UInt16 where)$/;"	f
+follow_BRA	followop.c	/^UInt16 follow_BRA (UInt16 where)$/;"	f
+follow_BSR	followop.c	/^UInt16 follow_BSR (UInt16 where)$/;"	f
+follow_BVC	followop.c	/^UInt16 follow_BVC (UInt16 where)$/;"	f
+follow_BVS	followop.c	/^UInt16 follow_BVS (UInt16 where)$/;"	f
+follow_JMPabs	followop.c	/^UInt16 follow_JMPabs (UInt16 where)$/;"	f
+follow_JMPindir	followop.c	/^UInt16 follow_JMPindir (UInt16 where)$/;"	f
+follow_JMPindirX	followop.c	/^UInt16 follow_JMPindirX (UInt16 where)$/;"	f
+follow_JSR	followop.c	/^UInt16 follow_JSR (UInt16 where)$/;"	f
+follow_RTI	followop.c	/^UInt16 follow_RTI (UInt16 where)$/;"	f
+follow_RTS	followop.c	/^UInt16 follow_RTS (UInt16 where)$/;"	f
+follow_straight	followop.c	/^UInt16 follow_straight (UInt16 where)$/;"	f
+following_IP	optable.h	/^   UInt16 (*following_IP) (UInt16);$/;"	m	struct:op_debug
+force_header	pce.c	/^UChar force_header = 1;$/;"	v
+forward_one_line	dis.c	/^forward_one_line ()$/;"	f
+found_at	lang.h	36;"	d
+fputw	cheat.c	/^inline void fputw (UInt16 value, FILE* F)$/;"	f
+frame	sprite.c	/^int frame = 0;$/;"	v
+frame_per_sec	lang.h	43;"	d
+frame_skip	lang.h	11;"	d
+freeze_value	cheat.c	/^freeze_value (void)$/;"	f
+freezed_value	cheat.h	/^		 } freezed_value;$/;"	t	typeref:struct:__anon9
+freq	pce.h	/^  UInt32 freq;$/;"	m	struct:host_sound
+freq_set_to	lang.h	52;"	d
+full_speed	lang.h	12;"	d
+fullscreen_height	pce.h	/^  UInt16 fullscreen_height;$/;"	m	struct:hugo_options
+fullscreen_width	pce.h	/^  UInt16 fullscreen_width;$/;"	m	struct:hugo_options
+func	optable.h	/^  void (*func)(char *, long int, unsigned char *, char *);$/;"	m	struct:mode_debug
+func_exe	defs.h	/^   int (*func_exe)(void);$/;"	m	struct:op
+func_format	defs.h	/^  void (*func_format)(Char *, long, UChar *, Char *);$/;"	m	struct:mode
+g	gfx.c	/^  UChar r,g,b;$/;"	m	struct:__anon28	file:
+game_asked	hugo.c	/^game_asked ()$/;"	f
+game_load	lang.h	16;"	d
+game_save	lang.h	15;"	d
+gamepad	psp/osd_psp_machine.c	/^UChar gamepad = 0;$/;"	v
+gamepad_driver	psp/osd_psp_machine.c	/^int gamepad_driver = 0;$/;"	v
+gen_vol	sound.c	/^UChar gen_vol = 255;$/;"	v
+gen_vol	sound_prev.c	/^UChar gen_vol = 255;$/;"	v
+generic_rect	gfx.h	/^struct generic_rect$/;"	s
+get_16bit_addr	h6280.c	/^inline UInt16 get_16bit_addr(UInt16 addr) {$/;"	f
+get_16bit_addr	h6280.h	280;"	d
+get_16bit_zp	h6280.c	/^inline UInt16 get_16bit_zp(UChar zp_addr) {$/;"	f
+get_8bit_addr	h6280.c	/^inline UChar get_8bit_addr(UInt16 addr) {$/;"	f
+get_8bit_addr	h6280.h	278;"	d
+get_8bit_zp	h6280.c	/^inline UChar get_8bit_zp(UChar zp_addr) {$/;"	f
+get_config_int	iniconfig.c	/^get_config_int (char *section, char *keyword, int default_value)$/;"	f
+get_config_string	iniconfig.c	/^get_config_string (char *section, char *keyword, char *default_value)$/;"	f
+get_config_var	iniconfig.c	/^get_config_var (char *section, char *variable)$/;"	f
+get_directory_from_filename	utils.c	/^get_directory_from_filename(char* filename)$/;"	f
+get_opcode_long	hard_pce.c	/^char * get_opcode_long()$/;"	f
+gfx_context	gfx.h	/^} gfx_context;$/;"	t	typeref:struct:__anon21
+gfx_debug_printf	gfx.c	/^void gfx_debug_printf(char *format, ...)$/;"	f
+gfx_need_redraw	gfx.c	/^static int gfx_need_redraw;$/;"	v	file:
+gfx_need_video_mode_change	gfx.c	/^int gfx_need_video_mode_change = 0;$/;"	v
+gi	unzip.c	/^	unz_global_info gi;       \/* public global information *\/$/;"	m	struct:__anon15	file:
+gtk_menu_ensure_uline_accel_group	utils.c	/^void gtk_menu_ensure_uline_accel_group ()$/;"	f
+h	shared_memory.h	/^  struct { UChar h,l; } B;$/;"	m	struct:__anon5::__anon6
+hVoice	sound.c	/^HAC hVoice;$/;"	v
+hVoice	sound_prev.c	/^HAC hVoice;$/;"	v
+halt	h6280.c	/^int halt(void) {$/;"	f
+handle_bios	bios.c	/^void handle_bios(void)$/;"	f
+handle_bp	bp.c	/^int handle_bp(int nb_bp)$/;"	f
+handle_bp0	bp.c	/^int handle_bp0()$/;"	f
+handle_bp1	bp.c	/^int handle_bp1()$/;"	f
+handle_bp10	bp.c	/^int handle_bp10()$/;"	f
+handle_bp11	bp.c	/^int handle_bp11()$/;"	f
+handle_bp12	bp.c	/^int handle_bp12()$/;"	f
+handle_bp13	bp.c	/^int handle_bp13()$/;"	f
+handle_bp14	bp.c	/^handle_bp14()$/;"	f
+handle_bp15	bp.c	/^handle_bp15(){$/;"	f
+handle_bp2	bp.c	/^int handle_bp2()$/;"	f
+handle_bp3	bp.c	/^int handle_bp3()$/;"	f
+handle_bp4	bp.c	/^int handle_bp4()$/;"	f
+handle_bp5	bp.c	/^int handle_bp5()$/;"	f
+handle_bp6	bp.c	/^int handle_bp6()$/;"	f
+handle_bp7	bp.c	/^int handle_bp7()$/;"	f
+handle_bp8	bp.c	/^int handle_bp8()$/;"	f
+handle_bp9	bp.c	/^int handle_bp9()$/;"	f
+hard_init	hard_pce.c	/^hard_init (void)$/;"	f
+hard_pce	hard_pce.c	/^struct_hard_pce *hard_pce;$/;"	v
+hard_term	hard_pce.c	/^hard_term (void)$/;"	f
+hardware_scaling	pce.h	/^  boolean hardware_scaling;$/;"	m	struct:host_video
+hcd_source_type	pce.h	/^} hcd_source_type;$/;"	t	typeref:enum:__anon19
+help_debug	lang.h	20;"	d
+help_debug_size	lang.h	21;"	d
+hook_start_cd_system	pce.c	/^UChar hook_start_cd_system = 0;$/;"	v
+host	hugo.c	/^struct host_machine host;$/;"	v	typeref:struct:host_machine
+host_machine	pce.h	/^struct host_machine$/;"	s
+host_sound	pce.h	/^struct host_sound$/;"	s
+host_video	pce.h	/^struct host_video$/;"	s
+htons	utils.c	/^u_short htons(u_short arg)$/;"	f
+htons	utils.h	45;"	d
+hugo_options	pce.h	/^struct hugo_options$/;"	s
+hugorom	psp/osd_psp_machine.c	/^unsigned char *hugorom;$/;"	v
+hugoromsize	psp/osd_psp_machine.c	/^int hugoromsize;$/;"	v
+i	defs.h	/^  UInt32       i;$/;"	m	union:__anon13
+imm_operand	h6280.c	/^inline UChar imm_operand(UInt16 addr) {$/;"	f
+immed	format.c	/^immed (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+implicit	format.c	/^implicit (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+inc_a	h6280.c	/^int inc_a(void) {$/;"	f
+inc_abs	h6280.c	/^int inc_abs(void) {$/;"	f
+inc_absx	h6280.c	/^int inc_absx(void) {$/;"	f
+inc_zp	h6280.c	/^int inc_zp(void) {$/;"	f
+inc_zpx	h6280.c	/^int inc_zpx(void) {$/;"	f
+ind_zp	format.c	/^ind_zp (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+ind_zpind	format.c	/^ind_zpind (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+ind_zpix	format.c	/^ind_zpix (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+ind_zpiy	format.c	/^ind_zpiy (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+ind_zpx	format.c	/^ind_zpx (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+ind_zpy	format.c	/^ind_zpy (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+individual_config	sys_inp.h	/^  individual_input_config individual_config[5];$/;"	m	struct:__anon27
+individual_input_config	sys_inp.h	/^} individual_input_config;$/;"	t	typeref:struct:__anon26
+init	sys_gfx.h	/^        int  (*init)(void);$/;"	m	struct:__anon4
+init_allegro	lang.h	23;"	d
+init_config	iniconfig.c	/^init_config (void)$/;"	f
+init_log_file	pce.c	/^init_log_file ()$/;"	f
+init_pos	dis.c	/^UInt16 init_pos;$/;"	v
+init_sound	lang.h	26;"	d
+initial_path	psp/osd_psp_machine.c	/^char initial_path[PATH_MAX] = "";$/;"	v
+initialisation	hugo.c	/^initialisation (int argc, char *argv[])$/;"	f
+input_config	sys_inp.h	/^} input_config;$/;"	t	typeref:struct:__anon27
+int_irq1	h6280.c	/^int int_irq1 (void) {$/;"	f
+int_irq2	h6280.c	/^int int_irq2 (void) {$/;"	f
+int_tiq	h6280.c	/^int int_tiq(void) {$/;"	f
+internal_fa	unzip.h	/^    uLong internal_fa;          \/* internal file attributes        2 bytes *\/$/;"	m	struct:unz_file_info_s
+interrupt_60hz	pce.c	/^END_OF_FUNCTION (interrupt_60hz);$/;"	v
+interrupt_60hz	pce.c	/^void interrupt_60hz (void)$/;"	f
+inx	h6280.c	/^int inx(void) {$/;"	f
+iny	h6280.c	/^int iny(void) {$/;"	f
+io	hard_pce.h	89;"	d
+io_buffer	shared_memory.h	/^  UChar io_buffer;$/;"	m	struct:tagIO
+irq_mask	shared_memory.h	/^  UChar irq_mask,irq_status;$/;"	m	struct:tagIO
+irq_status	shared_memory.h	/^  UChar irq_mask,irq_status;$/;"	m	struct:tagIO
+iso_FILE	pce.c	/^FILE *iso_FILE = NULL;$/;"	v
+iso_file_not_found	lang.h	50;"	d
+issue_ADPCM_dma	pce.c	/^issue_ADPCM_dma (void)$/;"	f
+jmp	h6280.c	/^int jmp(void) {$/;"	f
+jmp_absind	h6280.c	/^int jmp_absind(void) {$/;"	f
+jmp_absindx	h6280.c	/^int jmp_absindx(void) {$/;"	f
+joy_counter	shared_memory.h	/^  UChar joy_counter; \/* current addressed joypad *\/$/;"	m	struct:tagIO
+joy_detected	lang.h	45;"	d
+joy_mapping	sys_inp.h	/^	UInt16 joy_mapping[J_MAX];$/;"	m	struct:__anon26
+joy_no_detected	lang.h	46;"	d
+joy_select	shared_memory.h	/^  UChar joy_select; \/* used to know what nibble we must return *\/$/;"	m	struct:tagIO
+joydev	sys_inp.h	/^	UChar joydev;$/;"	m	struct:__anon26
+joymap	sys_inp.h	/^} joymap;$/;"	t	typeref:enum:__anon24
+joymap_reverse	pce.c	/^const char* joymap_reverse[J_MAX] = {$/;"	v
+jsr	h6280.c	/^int jsr(void) {$/;"	f
+key_delay	pce.c	/^volatile SChar key_delay = 0;$/;"	v
+key_t	utils.h	/^typedef int key_t;$/;"	t
+l	shared_memory.h	/^  struct { UChar h,l; } B;$/;"	m	struct:__anon5::__anon6
+language	pce.c	/^UChar language;$/;"	v
+lba2msf	pce.c	/^lba2msf (int lba, unsigned char *msf)$/;"	f
+lda_abs	h6280.c	/^int lda_abs(void) {$/;"	f
+lda_absx	h6280.c	/^int lda_absx(void) {$/;"	f
+lda_absy	h6280.c	/^int lda_absy(void) {$/;"	f
+lda_imm	h6280.c	/^int lda_imm(void) {$/;"	f
+lda_zp	h6280.c	/^int lda_zp(void) {$/;"	f
+lda_zpind	h6280.c	/^int lda_zpind(void) {$/;"	f
+lda_zpindx	h6280.c	/^int lda_zpindx(void) {$/;"	f
+lda_zpindy	h6280.c	/^int lda_zpindy(void) {$/;"	f
+lda_zpx	h6280.c	/^int lda_zpx(void) {$/;"	f
+ldx_abs	h6280.c	/^int ldx_abs(void) {$/;"	f
+ldx_absy	h6280.c	/^int ldx_absy(void) {$/;"	f
+ldx_imm	h6280.c	/^int ldx_imm(void) {$/;"	f
+ldx_zp	h6280.c	/^int ldx_zp(void) {$/;"	f
+ldx_zpy	h6280.c	/^int ldx_zpy(void) {$/;"	f
+ldy_abs	h6280.c	/^int ldy_abs(void) {$/;"	f
+ldy_absx	h6280.c	/^int ldy_absx(void) {$/;"	f
+ldy_imm	h6280.c	/^int ldy_imm(void) {$/;"	f
+ldy_zp	h6280.c	/^int ldy_zp(void) {$/;"	f
+ldy_zpx	h6280.c	/^int ldy_zpx(void) {$/;"	f
+length	pce.h	/^  UInt32 length;$/;"	m	struct:__anon20
+lineprint1	format.c	/^lineprint1 (char *outf, long ctr, unsigned char *op, char *outstring)$/;"	f
+lineprint2	format.c	/^lineprint2 (char *outf, long ctr, unsigned char *op, char *outstring)$/;"	f
+lineprint3	format.c	/^lineprint3 (char *outf, long ctr, unsigned char *op, char *outstring)$/;"	f
+lineprint4	format.c	/^lineprint4 (char *outf, long ctr, unsigned char *op, char *outstring)$/;"	f
+lineprint7	format.c	/^lineprint7 (char *outf, long ctr, unsigned char *op, char *outstring)$/;"	f
+list_to_freeze	cheat.c	/^freezed_value list_to_freeze[MAX_FREEZED_VALUE];$/;"	v
+load_gfx_context	gfx.c	/^load_gfx_context(int slot_number)$/;"	f
+loadgame	cheat.c	/^loadgame ()$/;"	f
+local	unzip.c	26;"	d	file:
+local_input_mapping	pce.h	/^  UChar local_input_mapping[5];$/;"	m	struct:hugo_options
+lpWave	sound.c	/^LPAUDIOWAVE lpWave;$/;"	v
+lpWave	sound_prev.c	/^LPAUDIOWAVE lpWave;$/;"	v
+lsr_a	h6280.c	/^int lsr_a(void) {$/;"	f
+lsr_abs	h6280.c	/^int lsr_abs(void) {$/;"	f
+lsr_absx	h6280.c	/^int lsr_absx(void) {$/;"	f
+lsr_zp	h6280.c	/^int lsr_zp(void) {$/;"	f
+lsr_zpx	h6280.c	/^int lsr_zpx(void) {$/;"	f
+main_buf	sound.c	/^unsigned char main_buf[SBUF_SIZE_BYTE];$/;"	v
+main_buf	sound_prev.c	/^unsigned char main_buf[SBUF_SIZE_BYTE];$/;"	v
+main_hugo	hugo.c	/^main_hugo (int argc, char** argv)$/;"	f
+main_hugo_emulator_reset	hugo.c	/^main_hugo_emulator_reset()$/;"	f
+main_hugo_load_rom	hugo.c	/^main_hugo_load_rom(const char* FileName)$/;"	f
+main_hugo_reset_keyboard	hugo.c	/^main_hugo_reset_keyboard()$/;"	f
+main_hugo_send_key_event	hugo.c	/^main_hugo_send_key_event(int key_id, int key_press)$/;"	f
+manual_content	manual.h	/^static char manual_content[] = "\\$/;"	v
+max	pce.h	338;"	d
+maxline	shared_memory.h	/^  Int32 maxline;$/;"	m	struct:tagIO
+memory_name	utils.c	/^static char memory_name[50];$/;"	v	file:
+message_delay	pce.c	/^volatile UInt32 message_delay = 0;$/;"	v
+min	pce.h	336;"	d
+minimum_bios_hooking	pce.c	/^UChar minimum_bios_hooking = 0;$/;"	v
+minline	shared_memory.h	/^  Int32 minline;$/;"	m	struct:tagIO
+mmr	hard_pce.c	/^UChar *mmr;$/;"	v
+mmr	shared_memory.h	/^  UChar  mmr[8];$/;"	m	struct:__anon7
+mode	defs.h	/^typedef struct mode {$/;"	s
+mode	sys_gfx.h	/^        int  (*mode)(void);$/;"	m	struct:__anon4
+mode_debug	optable.h	/^typedef struct mode_debug {$/;"	s
+mode_struct	defs.h	/^} mode_struct;$/;"	t	typeref:struct:mode
+mode_struct_debug	optable.h	/^} mode_struct_debug;$/;"	t	typeref:struct:mode_debug
+mousedev	sys_inp.h	/^	UChar mousedev;$/;"	m	struct:__anon26
+mseq	mix.c	/^int mseq(UInt32 *rand_val)$/;"	f
+msf2nb_sect	pce.c	/^msf2nb_sect (UChar min, UChar sec, UChar frm)$/;"	f
+name	list_rom.h	/^  char *name, *producer, *date, *note;$/;"	m	struct:pce_rom_info
+nb_max_track	pce.c	/^UChar nb_max_track = 24;	\/\/(NO MORE BCD!!!!!)$/;"	v
+nb_sect2msf	pce.c	/^nb_sect2msf (UInt32 lsn, UChar * min, UChar * sec, UChar * frm)$/;"	f
+nb_used	pce.c	/^unsigned nb_used[256], time_used[256];$/;"	v
+netplay_type	sys_inp.h	/^typedef enum { LOCAL_PROTOCOL, LAN_PROTOCOL, INTERNET_PROTOCOL } netplay_type ;$/;"	t	typeref:enum:__anon25
+new_adpcm_play	sound.c	/^UChar new_adpcm_play = 0;$/;"	v
+new_adpcm_play	sound_prev.c	/^UChar new_adpcm_play = 0;$/;"	v
+new_val	pce.h	/^  UChar new_val;$/;"	m	struct:__anon17
+no	sprite.h	/^	short y,x,no,atr;$/;"	m	struct:__anon22
+no_device_found	lang.h	30;"	d
+no_mem	lang.h	28;"	d
+nop	h6280.c	/^int nop(void)  {$/;"	f
+note	list_rom.h	/^  char *name, *producer, *date, *note;$/;"	m	struct:pce_rom_info
+num_file	unzip.c	/^	uLong num_file;             \/* number of the current file in the zipfile*\/$/;"	m	struct:__anon15	file:
+number_entry	unzip.h	/^	uLong number_entry;         \/* total number of entries in$/;"	m	struct:unz_global_info_s
+offset	pce.h	/^  UInt32 offset;$/;"	m	struct:__anon17
+offset_central_dir	unzip.c	/^	uLong offset_central_dir;   \/* offset of start of central directory with$/;"	m	struct:__anon15	file:
+offset_curfile	unzip.c	/^    uLong offset_curfile;\/* relative offset of local header 4 bytes *\/$/;"	m	struct:unz_file_info_internal_s	file:
+offset_local_extrafield	unzip.c	/^	uLong offset_local_extrafield;\/* offset of the local extra field *\/$/;"	m	struct:__anon14	file:
+old	mix.c	/^unsigned char old;$/;"	v
+oldScrollX	sprite.c	/^int oldScrollX;$/;"	v
+oldScrollY	sprite.c	/^int oldScrollY;$/;"	v
+oldScrollYDiff	sprite.c	/^int oldScrollYDiff;$/;"	v
+old_dump_crc	gfx.c	/^static unsigned int old_dump_crc = (unsigned)-1;$/;"	v	file:
+old_screen_h	gfx.c	/^static UInt16 old_screen_w, old_screen_h;$/;"	v	file:
+old_screen_w	gfx.c	/^static UInt16 old_screen_w, old_screen_h;$/;"	v	file:
+one_bit_set	h6280.c	/^int one_bit_set(UChar arg)$/;"	f	file:
+op	defs.h	/^typedef struct op {$/;"	s
+op	dis_cst.h	/^typedef struct op {$/;"	s
+op_debug	optable.h	/^typedef struct op_debug {$/;"	s
+opbuf	dis.c	/^UChar opbuf[OPBUF_SIZE];$/;"	v
+opcode_long_buffer	hard_pce.c	/^static char opcode_long_buffer[256];$/;"	v	file:
+opcode_long_position	hard_pce.c	/^static UInt16 opcode_long_position;$/;"	v	file:
+operation	defs.h	/^} operation;$/;"	t	typeref:struct:op
+operation	dis_cst.h	/^} operation;$/;"	t	typeref:struct:op
+operation_debug	optable.h	/^} operation_debug;$/;"	t	typeref:struct:op_debug
+opname	defs.h	/^   char * opname;$/;"	m	struct:op
+opname	dis_cst.h	/^   char * opname;$/;"	m	struct:op
+opname	optable.h	/^   char * opname;$/;"	m	struct:op_debug
+optable	dis_cst.h	/^operation optable[256] = {$/;"	v
+optable_debug	optable.c	/^operation_debug optable_debug[256] = {$/;"	v
+optable_runtime	dis_runtime.h	/^operation optable_runtime[256] = {$/;"	v
+option	hugo.c	/^struct hugo_options option;$/;"	v	typeref:struct:hugo_options
+options	iniconfig.c	/^static struct argp_option options[] = {$/;"	v	typeref:struct:argp_option	file:
+ora_abs	h6280.c	/^int ora_abs(void) {$/;"	f
+ora_absx	h6280.c	/^int ora_absx(void) {$/;"	f
+ora_absy	h6280.c	/^int ora_absy(void) {$/;"	f
+ora_imm	h6280.c	/^int ora_imm(void) {$/;"	f
+ora_zp	h6280.c	/^int ora_zp(void) {$/;"	f
+ora_zpind	h6280.c	/^int ora_zpind(void) {$/;"	f
+ora_zpindx	h6280.c	/^int ora_zpindx(void) {$/;"	f
+ora_zpindy	h6280.c	/^int ora_zpindy(void) {$/;"	f
+ora_zpx	h6280.c	/^int ora_zpx(void) {$/;"	f
+original_op	debug.h	/^  UChar original_op;$/;"	m	struct:__anon23
+osd_cd_close	psp/osd_psp_cd.c	/^void osd_cd_close()$/;"	f
+osd_cd_init	psp/osd_psp_cd.c	/^int osd_cd_init(char *device)$/;"	f
+osd_cd_length	psp/osd_psp_cd.c	/^void osd_cd_length(int *min, int *sec, int *fra)$/;"	f
+osd_cd_nb_tracks	psp/osd_psp_cd.c	/^void osd_cd_nb_tracks(int *first, int *last)$/;"	f
+osd_cd_pause	psp/osd_psp_cd.c	/^void osd_cd_pause(void)$/;"	f
+osd_cd_play_audio_range	psp/osd_psp_cd.c	/^void osd_cd_play_audio_range(UChar min_from, UChar sec_from, UChar fra_from,$/;"	f
+osd_cd_play_audio_track	psp/osd_psp_cd.c	/^void osd_cd_play_audio_track(UChar track)$/;"	f
+osd_cd_read	psp/osd_psp_cd.c	/^void osd_cd_read(UChar *p, UInt32 sector)$/;"	f
+osd_cd_resume	psp/osd_psp_cd.c	/^void osd_cd_resume(void)$/;"	f
+osd_cd_status	psp/osd_psp_cd.c	/^void osd_cd_status(int *status)$/;"	f
+osd_cd_stop_audio	psp/osd_psp_cd.c	/^void osd_cd_stop_audio()$/;"	f
+osd_cd_subchannel_info	psp/osd_psp_cd.c	/^void osd_cd_subchannel_info(unsigned short offset)$/;"	f
+osd_cd_track_info	psp/osd_psp_cd.c	/^void osd_cd_track_info(UChar track, int *min, int *sec, int *fra, int *control)$/;"	f
+osd_fix_filename_slashes	psp/osd_psp_machine.c	/^void osd_fix_filename_slashes(char* s)$/;"	f
+osd_getTime	h6280.c	/^static double osd_getTime(void)$/;"	f	file:
+osd_getTime	utils.c	/^static double osd_getTime(void)$/;"	f	file:
+osd_gfx_buffer	psp/osd_psp_machine.c	/^UChar* osd_gfx_buffer = NULL;$/;"	v
+osd_gfx_driver	sys_gfx.h	/^   } osd_gfx_driver;$/;"	t	typeref:struct:__anon4
+osd_gfx_driver_list	psp/osd_psp_gfx.c	/^osd_gfx_driver osd_gfx_driver_list[3] =$/;"	v
+osd_gfx_init	psp/osd_psp_gfx.c	/^int osd_gfx_init(void)$/;"	f
+osd_gfx_init_normal_mode	psp/osd_psp_gfx.c	/^int osd_gfx_init_normal_mode()$/;"	f
+osd_gfx_put_image_normal	psp/osd_psp_gfx.c	/^void osd_gfx_put_image_normal(void)$/;"	f
+osd_gfx_set_color	psp/osd_psp_gfx.c	/^void osd_gfx_set_color(UChar index, UChar r, UChar g, UChar b)$/;"	f
+osd_gfx_set_message	psp/osd_psp_gfx.c	/^void osd_gfx_set_message(char* mess)$/;"	f
+osd_gfx_shut_normal_mode	psp/osd_psp_gfx.c	/^void osd_gfx_shut_normal_mode(void)$/;"	f
+osd_init_input	psp/osd_psp_keyboard.c	/^int osd_init_input()$/;"	f
+osd_init_machine	psp/osd_psp_machine.c	/^int osd_init_machine(void)$/;"	f
+osd_init_paths	psp/osd_psp_machine.c	/^osd_init_paths(int argc, char* argv[])$/;"	f
+osd_keyboard	psp/osd_psp_keyboard.c	/^int osd_keyboard(void)$/;"	f
+osd_keyboard_event	psp/osd_psp_keyboard.c	/^osd_keyboard_event(int joy_num, int key_id, int key_press)$/;"	f
+osd_keyboard_reset	psp/osd_psp_keyboard.c	/^osd_keyboard_reset()$/;"	f
+osd_keypressed	psp/osd_psp_machine.c	/^SChar osd_keypressed(void)$/;"	f
+osd_pal	psp/osd_psp_gfx.c	/^u16 osd_pal[256];$/;"	v
+osd_readkey	psp/osd_psp_machine.c	/^UInt16 osd_readkey(void)$/;"	f
+osd_shut_machine	psp/osd_psp_machine.c	/^osd_shut_machine (void)$/;"	f
+osd_shutdown_input	psp/osd_psp_keyboard.c	/^void osd_shutdown_input(void)$/;"	f
+osd_sleep	utils.c	/^static void osd_sleep(double s)$/;"	f	file:
+osd_snd_init_sound	psp/osd_psp_snd.c	/^int osd_snd_init_sound(void)$/;"	f
+osd_snd_init_sound	psp/osd_psp_snd_prev.c	/^int osd_snd_init_sound(void)$/;"	f
+osd_snd_set_volume	psp/osd_psp_snd.c	/^ void osd_snd_set_volume(UChar v)$/;"	f
+osd_snd_set_volume	psp/osd_psp_snd.c	/^void osd_snd_set_volume(UChar v)$/;"	f
+osd_snd_set_volume	psp/osd_psp_snd_prev.c	/^void osd_snd_set_volume(UChar v)$/;"	f
+osd_snd_trash_sound	psp/osd_psp_snd.c	/^void osd_snd_trash_sound(void)$/;"	f
+osd_snd_trash_sound	psp/osd_psp_snd_prev.c	/^void osd_snd_trash_sound(void)$/;"	f
+out_snd	pce.c	/^FILE *out_snd;$/;"	v
+p_cyclecount	hard_pce.c	/^UInt32 *p_cyclecount;$/;"	v
+p_cyclecountold	hard_pce.c	/^UInt32 *p_cyclecountold;$/;"	v
+p_cycles	hard_pce.c	/^UInt32 *p_cycles;$/;"	v
+p_external_control_cpu	hard_pce.c	/^SInt32 *p_external_control_cpu;$/;"	v
+p_io	hard_pce.c	/^IO *p_io;$/;"	v
+p_reg_a	hard_pce.c	/^UChar *p_reg_a;$/;"	v
+p_reg_p	hard_pce.c	/^UChar *p_reg_p;$/;"	v
+p_reg_pc	hard_pce.c	/^UInt16 *p_reg_pc;$/;"	v
+p_reg_s	hard_pce.c	/^UChar *p_reg_s;$/;"	v
+p_reg_x	hard_pce.c	/^UChar *p_reg_x;$/;"	v
+p_reg_y	hard_pce.c	/^UChar *p_reg_y;$/;"	v
+p_scanline	hard_pce.c	/^UInt32 *p_scanline;$/;"	v
+packed_iso_FILE	pce.c	/^PACKFILE *packed_iso_FILE = NULL;$/;"	v
+packed_iso_filesize	pce.c	/^UInt32 packed_iso_filesize = 0;$/;"	v
+pair	shared_memory.h	/^} pair;$/;"	t	typeref:union:__anon5
+parse_INIfile	iniconfig.c	/^parse_INIfile ()$/;"	f
+parse_INIfile_raw	iniconfig.c	/^parse_INIfile_raw ()$/;"	f
+parse_commandline	iniconfig.c	/^parse_commandline (int argc, char **argv)$/;"	f
+parse_opt	iniconfig.c	/^parse_opt (int key, char *arg, struct argp_state *state)$/;"	f	file:
+patch	pce.h	/^  PatchEntry *patch;$/;"	m	struct:__anon20
+patch_number	pce.h	/^  UInt32 patch_number;$/;"	m	struct:__anon20
+patch_rom	utils.c	/^void patch_rom(char* filename, int offset, UChar value)$/;"	f
+pce_build_romlist	list_rom.c	/^void pce_build_romlist(void)$/;"	f
+pce_build_romlist_fail	list_rom.c	/^void pce_build_romlist_fail(FILE *rlf, int entry)$/;"	f	file:
+pce_cd_adpcm_trans_done	pce.c	/^UChar pce_cd_adpcm_trans_done = 0;$/;"	v
+pce_cd_cmdcnt	pcecd.c	/^UChar pce_cd_cmdcnt;$/;"	v
+pce_cd_curcmd	hard_pce.c	/^UChar pce_cd_curcmd;$/;"	v
+pce_cd_dirinfo	pcecd.c	/^UChar pce_cd_dirinfo[4];$/;"	v
+pce_cd_handle_command	pcecd.c	/^pce_cd_handle_command (void)$/;"	f	file:
+pce_cd_handle_read_1800	pcecd.c	/^UChar pce_cd_handle_read_1800(UInt16 A)$/;"	f
+pce_cd_handle_write_1800	pcecd.c	/^void pce_cd_handle_write_1800(UInt16 A, UChar V)$/;"	f
+pce_cd_read_datacnt	hard_pce.c	/^UInt32 pce_cd_read_datacnt;$/;"	v
+pce_cd_read_sector	pce.c	/^pce_cd_read_sector (void)$/;"	f
+pce_cd_sectoraddress	pcecd.c	/^UChar pce_cd_sectoraddress[3];$/;"	v
+pce_cd_sectoraddy	pcecd.c	/^UInt32 pce_cd_sectoraddy;$/;"	v
+pce_cd_set_sector_address	pcecd.c	/^pce_cd_set_sector_address (void)$/;"	f	file:
+pce_cd_temp_dirinfo	pcecd.c	/^UChar pce_cd_temp_dirinfo[4];$/;"	v
+pce_cd_temp_play	pcecd.c	/^UChar pce_cd_temp_play[4];$/;"	v
+pce_cd_temp_stop	pcecd.c	/^UChar pce_cd_temp_stop[4];$/;"	v
+pce_rom_info	list_rom.h	/^struct pce_rom_info$/;"	s
+pce_romlist	list_rom.c	/^struct pce_rom_info *pce_romlist = NULL;$/;"	v	typeref:struct:pce_rom_info
+pce_romlist_size	list_rom.c	/^int pce_romlist_size = 0;$/;"	v
+pfile_in_zip_read	unzip.c	/^    file_in_zip_read_info_s* pfile_in_zip_read; \/* structure about the current$/;"	m	struct:__anon15	file:
+pha	h6280.c	/^int pha(void) {$/;"	f
+php	h6280.c	/^int php(void) {$/;"	f
+phx	h6280.c	/^int phx(void) {$/;"	f
+phy	h6280.c	/^int phy(void) {$/;"	f
+physical_screen	psp/osd_psp_gfx.c	/^unsigned char *physical_screen = NULL;$/;"	v
+pla	h6280.c	/^int pla(void) {$/;"	f
+plane2pixel	sprite.c	/^plane2pixel (int no)$/;"	f	file:
+play_game	hugo.c	/^play_game (void)$/;"	f
+played	lang.h	39;"	d
+plp	h6280.c	/^int plp(void) {$/;"	f
+plx	h6280.c	/^int plx(void) {$/;"	f
+ply	h6280.c	/^int ply(void) {$/;"	f
+pokebyte	cheat.c	/^pokebyte ()$/;"	f
+populus	pce.c	/^UChar populus = 0;$/;"	v
+pos_in_central_dir	unzip.c	/^	uLong pos_in_central_dir;   \/* pos of the current file in the central dir*\/$/;"	m	struct:__anon15	file:
+pos_in_zipfile	unzip.c	/^	uLong pos_in_zipfile;       \/* position in byte on the zipfile, for fseek*\/$/;"	m	struct:__anon14	file:
+pos_local_extrafield	unzip.c	/^	uLong pos_local_extrafield;   \/* position in the local extra field in read*\/$/;"	m	struct:__anon14	file:
+position	cheat.h	/^       unsigned short position;$/;"	m	struct:__anon9
+position	debug.h	/^  UInt16 position;$/;"	m	struct:__anon23
+possible_filename_in_zip	miniunz.c	/^static char possible_filename_in_zip[PATH_MAX];$/;"	v	file:
+producer	list_rom.h	/^  char *name, *producer, *date, *note;$/;"	m	struct:pce_rom_info
+pseudorel	format.c	/^pseudorel (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+psg_ch	shared_memory.h	/^  UChar psg_ch,psg_volume,psg_lfo_freq,psg_lfo_ctrl;$/;"	m	struct:tagIO
+psg_channel_disabled	shared_memory.h	/^  boolean psg_channel_disabled[6];$/;"	m	struct:tagIO
+psg_da_count	shared_memory.h	/^  UInt16 psg_da_index[6], psg_da_count[6];$/;"	m	struct:tagIO
+psg_da_data	shared_memory.h	/^  UChar psg_da_data[6][PSG_DIRECT_ACCESS_BUFSIZE];$/;"	m	struct:tagIO
+psg_da_index	shared_memory.h	/^  UInt16 psg_da_index[6], psg_da_count[6];$/;"	m	struct:tagIO
+psg_lfo_ctrl	shared_memory.h	/^  UChar psg_ch,psg_volume,psg_lfo_freq,psg_lfo_ctrl;$/;"	m	struct:tagIO
+psg_lfo_freq	shared_memory.h	/^  UChar psg_ch,psg_volume,psg_lfo_freq,psg_lfo_ctrl;$/;"	m	struct:tagIO
+psg_volume	shared_memory.h	/^  UChar psg_ch,psg_volume,psg_lfo_freq,psg_lfo_ctrl;$/;"	m	struct:tagIO
+pull_16bit	h6280.c	/^inline UInt16 pull_16bit(void) {$/;"	f
+pull_8bit	h6280.c	/^inline UChar pull_8bit(void) {$/;"	f
+push_16bit	h6280.c	/^inline void push_16bit(UInt16 addr) {$/;"	f
+push_8bit	h6280.c	/^inline void push_8bit(UChar byte) {$/;"	f
+put_8bit_addr	h6280.c	/^inline void put_8bit_addr(UInt16 addr, UChar byte) {$/;"	f
+put_8bit_addr	h6280.h	279;"	d
+put_8bit_zp	h6280.c	/^inline void put_8bit_zp(UChar zp_addr, UChar byte) {$/;"	f
+r	gfx.c	/^  UChar r,g,b;$/;"	m	struct:__anon28	file:
+ram_key	edit_ram.c	/^ram_key ()$/;"	f
+read_buffer	unzip.c	/^	char  *read_buffer;         \/* internal buffer for compressed data *\/$/;"	m	struct:__anon14	file:
+read_joy_mapping	iniconfig.c	/^read_joy_mapping (void)$/;"	f
+read_memory_arcade_card	hard_pce.c	/^UChar read_memory_arcade_card(UInt16 A)$/;"	f
+read_memory_function	hard_pce.c	/^UChar (*read_memory_function)(UInt16) = read_memory_simple;$/;"	v
+read_memory_function	hard_pce.h	/^UChar	(*read_memory_function)(UInt16);$/;"	v
+read_memory_simple	hard_pce.c	/^UChar read_memory_simple(UInt16 A)$/;"	f
+read_sector_BIN	pce.c	/^read_sector_BIN (unsigned char *p, UInt32 sector)$/;"	f
+read_sector_CD	pce.c	/^read_sector_CD (unsigned char *p, UInt32 sector)$/;"	f
+read_sector_HCD	hcd.c	/^read_sector_HCD (unsigned char *p, UInt32 dum)$/;"	f
+read_sector_ISO	pce.c	/^read_sector_ISO (unsigned char *p, UInt32 sector)$/;"	f
+read_sector_ISQ	pce.c	/^read_sector_ISQ (unsigned char *p, UInt32 sector)$/;"	f
+read_sector_dummy	pce.c	/^read_sector_dummy (unsigned char *p, UInt32 sector)$/;"	f
+read_sector_method	pce.c	/^void (*read_sector_method[6]) (unsigned char *, UInt32) =$/;"	v
+readindexedram	cheat.c	/^readindexedram (UInt32 index)$/;"	f
+reading_dir	lang.h	44;"	d
+reg_a	hard_pce.c	/^UChar reg_a;$/;"	v
+reg_a	hard_pce.h	209;"	d
+reg_p	hard_pce.c	/^UChar reg_p;$/;"	v
+reg_p	hard_pce.h	212;"	d
+reg_pc	hard_pce.c	/^UInt16 reg_pc;$/;"	v
+reg_pc	hard_pce.h	208;"	d
+reg_s	hard_pce.c	/^UChar reg_s;$/;"	v
+reg_s	hard_pce.h	213;"	d
+reg_x	hard_pce.c	/^UChar reg_x;$/;"	v
+reg_x	hard_pce.h	210;"	d
+reg_y	hard_pce.c	/^UChar reg_y;$/;"	v
+reg_y	hard_pce.h	211;"	d
+relative	format.c	/^relative (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+render_lines	gfx.c	/^render_lines(int min_line, int max_line)$/;"	f
+rest_read_compressed	unzip.c	/^	uLong rest_read_compressed; \/* number of byte to be decompressed *\/$/;"	m	struct:__anon14	file:
+rest_read_uncompressed	unzip.c	/^	uLong rest_read_uncompressed;\/*number of byte to be obtained after decomp*\/$/;"	m	struct:__anon14	file:
+return_value_mask	hard_pce.c	/^return_value_mask(UInt16 A)$/;"	f	file:
+return_value_mask_tab_0002	hard_pce.c	/^int return_value_mask_tab_0002[32] =$/;"	v
+return_value_mask_tab_0003	hard_pce.c	/^int return_value_mask_tab_0003[32] =$/;"	v
+return_value_mask_tab_0400	hard_pce.c	/^int return_value_mask_tab_0400[8] =$/;"	v
+return_value_mask_tab_0800	hard_pce.c	/^int return_value_mask_tab_0800[16] =$/;"	v
+return_value_mask_tab_0c00	hard_pce.c	/^int return_value_mask_tab_0c00[2] =$/;"	v
+return_value_mask_tab_1400	hard_pce.c	/^int return_value_mask_tab_1400[4] =$/;"	v
+rgb_map	gfx.c	/^rgb_map_struct rgb_map[256];$/;"	v
+rgb_map_struct	gfx.c	/^} rgb_map_struct;$/;"	t	typeref:struct:__anon28	file:
+rmb0	h6280.c	/^int rmb0(void) {$/;"	f
+rmb1	h6280.c	/^int rmb1(void) {$/;"	f
+rmb2	h6280.c	/^int rmb2(void) {$/;"	f
+rmb3	h6280.c	/^int rmb3(void) {$/;"	f
+rmb4	h6280.c	/^int rmb4(void) {$/;"	f
+rmb5	h6280.c	/^int rmb5(void) {$/;"	f
+rmb6	h6280.c	/^int rmb6(void) {$/;"	f
+rmb7	h6280.c	/^int rmb7(void) {$/;"	f
+rol_a	h6280.c	/^int rol_a(void) {$/;"	f
+rol_abs	h6280.c	/^int rol_abs(void) {$/;"	f
+rol_absx	h6280.c	/^int rol_absx(void) {$/;"	f
+rol_zp	h6280.c	/^int rol_zp(void) {$/;"	f
+rol_zpx	h6280.c	/^int rol_zpx(void) {$/;"	f
+rom_shared_memory_size	shared_memory.h	/^  UInt32 rom_shared_memory_size;$/;"	m	struct:__anon7
+romfilename	gui.h	/^       char romfilename[13];$/;"	m	struct:__anon2
+romname	gui.h	/^		 char romname[16];$/;"	m	struct:__anon2
+ror_a	h6280.c	/^int ror_a(void) {$/;"	f
+ror_abs	h6280.c	/^int ror_abs(void) {$/;"	f
+ror_absx	h6280.c	/^int ror_absx(void) {$/;"	f
+ror_zp	h6280.c	/^int ror_zp(void) {$/;"	f
+ror_zpx	h6280.c	/^int ror_zpx(void) {$/;"	f
+rti	h6280.c	/^int rti(void) {$/;"	f
+rts	h6280.c	/^int rts(void) {$/;"	f
+running_mode	dis.c	/^UChar running_mode;$/;"	v
+sCfgFileLine	iniconfig.c	/^char sCfgFileLine[BUFSIZ];$/;"	v
+s_cyclecount	shared_memory.h	/^  UInt32 s_cyclecount;$/;"	m	struct:__anon7
+s_cyclecountold	shared_memory.h	/^  UInt32 s_cyclecountold;$/;"	m	struct:__anon7
+s_cycles	shared_memory.h	/^  UInt32 s_cycles;$/;"	m	struct:__anon7
+s_external_control_cpu	shared_memory.h	/^  SInt32 s_external_control_cpu;$/;"	m	struct:__anon7
+s_io	shared_memory.h	/^  IO     s_io;$/;"	m	struct:__anon7
+s_reg_a	shared_memory.h	/^  UChar  s_reg_a;$/;"	m	struct:__anon7
+s_reg_p	shared_memory.h	/^  UChar  s_reg_p;$/;"	m	struct:__anon7
+s_reg_pc	shared_memory.h	/^  UInt16 s_reg_pc;$/;"	m	struct:__anon7
+s_reg_s	shared_memory.h	/^  UChar  s_reg_s;$/;"	m	struct:__anon7
+s_reg_x	shared_memory.h	/^  UChar  s_reg_x;$/;"	m	struct:__anon7
+s_reg_y	shared_memory.h	/^  UChar  s_reg_y;$/;"	m	struct:__anon7
+s_scanline	shared_memory.h	/^  UInt32 s_scanline;$/;"	m	struct:__anon7
+sample_size	pce.h	/^  UInt16 sample_size;$/;"	m	struct:host_sound
+sav_basepath	pce.c	/^char sav_basepath[PATH_MAX];$/;"	v
+sav_path	pce.c	/^char sav_path[PATH_MAX];$/;"	v
+save_background	debug.c	/^UChar save_background = 1;$/;"	v
+save_bg	debug.c	/^BITMAP *save_bg;$/;"	v
+save_config	iniconfig.c	/^save_config (void)$/;"	f
+save_gfx_context	gfx.c	/^save_gfx_context(int slot_number)$/;"	f
+save_pal	debug.c	/^PALETTE save_pal;$/;"	v
+saved_gfx_context	gfx.c	/^static gfx_context saved_gfx_context[MAX_GFX_CONTEXT_SLOT_NUMBER];$/;"	v	file:
+savegame	cheat.c	/^savegame ()$/;"	f
+sax	h6280.c	/^int sax(void) {$/;"	f
+say	h6280.c	/^int say(void) {$/;"	f
+sbc	h6280.c	/^void sbc(UChar val) {$/;"	f	file:
+sbc_abs	h6280.c	/^int sbc_abs(void) {$/;"	f
+sbc_absx	h6280.c	/^int sbc_absx(void) {$/;"	f
+sbc_absy	h6280.c	/^int sbc_absy(void) {$/;"	f
+sbc_imm	h6280.c	/^int sbc_imm(void) {$/;"	f
+sbc_zp	h6280.c	/^int sbc_zp(void) {$/;"	f
+sbc_zpind	h6280.c	/^int sbc_zpind(void) {$/;"	f
+sbc_zpindx	h6280.c	/^int sbc_zpindx(void) {$/;"	f
+sbc_zpindy	h6280.c	/^int sbc_zpindy(void) {$/;"	f
+sbc_zpx	h6280.c	/^int sbc_zpx(void) {$/;"	f
+sbuf	sound.c	/^char *sbuf[6];$/;"	v
+sbuf	sound_prev.c	/^char *sbuf[6];$/;"	v
+sbuf_size	sound.c	/^UInt32 sbuf_size = SBUF_SIZE_BYTE;$/;"	v
+sbuf_size	sound_prev.c	/^UInt32 sbuf_size = 10 * 1024;$/;"	v
+scanline	hard_pce.h	129;"	d
+scanlines_per_frame	pce.c	/^int scanlines_per_frame = 263;$/;"	v
+screen	psp/osd_psp_gfx.c	/^unsigned char *screen = NULL;$/;"	v
+screen_h	shared_memory.h	/^  Int32 screen_h;  \/* size of real screen in pixels *\/$/;"	m	struct:tagIO
+screen_shot	lang.h	14;"	d
+screen_w	shared_memory.h	/^  Int32 screen_w;  \/* size of real screen in pixels *\/$/;"	m	struct:tagIO
+scroll	pce.c	/^int scroll = 0;$/;"	v
+scroll_x	gfx.h	/^	typeof(io.VDC[BXR].W) scroll_x;$/;"	m	struct:__anon21
+scroll_y	gfx.h	/^	typeof(io.VDC[BYR].W) scroll_y;$/;"	m	struct:__anon21
+scroll_y	shared_memory.h	/^  Int32 scroll_y;$/;"	m	struct:tagIO
+scroll_y_diff	gfx.h	/^	int	scroll_y_diff;$/;"	m	struct:__anon21
+sdl_fill_audio	mix.c	/^void sdl_fill_audio(void *data, unsigned char *stream, int len)$/;"	f
+search_failed	lang.h	35;"	d
+search_possible_syscard	pce.c	/^search_possible_syscard()$/;"	f
+search_syscard	pce.c	/^search_syscard()$/;"	f
+searchbyte	cheat.c	/^searchbyte ()$/;"	f
+sec	h6280.c	/^int sec(void) {$/;"	f
+section	iniconfig.c	/^  char *section;$/;"	m	struct:__anon16	file:
+sed	h6280.c	/^int sed(void) {$/;"	f
+sei	h6280.c	/^int sei(void) {$/;"	f
+selected_position	dis.c	/^UInt16 selected_position;$/;"	v
+server_hostname	pce.c	/^char* server_hostname = NULL;$/;"	v
+server_hostname	pce.h	/^  char server_hostname[SERVER_HOSTNAME_MAX_SIZE];$/;"	m	struct:hugo_options
+set	h6280.c	/^int set(void) {$/;"	f
+set_arg	iniconfig.c	/^set_arg (char nb_arg, const char *val)$/;"	f
+set_bp_following	debug.c	/^set_bp_following (UInt16 where, UChar nb)$/;"	f
+set_config_file	iniconfig.c	/^set_config_file (const char *filename)$/;"	f
+set_config_file_back	iniconfig.c	/^set_config_file_back (void)$/;"	f
+set_config_var_int	iniconfig.c	/^set_config_var_int (char *section, char *name, int value)$/;"	f
+shm_handle	hard_pce.c	/^static int shm_handle;$/;"	v	file:
+shm_rom_handle	pce.c	/^static int shm_rom_handle;$/;"	v	file:
+shmat	utils.c	/^char* shmat (int handle, int dummy1, int dummy2)$/;"	f
+shmctl	utils.c	/^int shmctl(int handle, int dummy, int flags)$/;"	f
+shmget	utils.c	/^int shmget (key_t identifier, int size, int flags)$/;"	f
+short_cart_name	pce.c	/^char short_cart_name[PATH_MAX];$/;"	v
+short_exe_name	pce.c	/^char short_exe_name[PATH_MAX];$/;"	v
+short_iso_name	pce.c	/^char short_iso_name[PATH_MAX];$/;"	v
+shut	sys_gfx.h	/^        void (*shut)(void);$/;"	m	struct:__anon4
+shut_down	lang.h	22;"	d
+signed_sound	pce.h	/^  boolean signed_sound;$/;"	m	struct:host_sound
+silent	pce.c	/^SChar silent = 1;$/;"	v
+size	defs.h	/^  Int16 size;$/;"	m	struct:mode
+size	optable.h	/^  unsigned char size;$/;"	m	struct:mode_debug
+size_central_dir	unzip.c	/^	uLong size_central_dir;     \/* size of the central directory  *\/$/;"	m	struct:__anon15	file:
+size_comment	unzip.h	/^	uLong size_comment;         \/* size of the global comment of the zipfile *\/$/;"	m	struct:unz_global_info_s
+size_file_comment	unzip.h	/^    uLong size_file_comment;    \/* file comment length             2 bytes *\/$/;"	m	struct:unz_file_info_s
+size_file_extra	unzip.h	/^    uLong size_file_extra;      \/* extra field length              2 bytes *\/$/;"	m	struct:unz_file_info_s
+size_filename	unzip.h	/^    uLong size_filename;        \/* filename length                 2 bytes *\/$/;"	m	struct:unz_file_info_s
+size_local_extrafield	unzip.c	/^	uInt  size_local_extrafield;\/* size of the local extra field *\/$/;"	m	struct:__anon14	file:
+smb0	h6280.c	/^int smb0(void) {$/;"	f
+smb1	h6280.c	/^int smb1(void) {$/;"	f
+smb2	h6280.c	/^int smb2(void) {$/;"	f
+smb3	h6280.c	/^int smb3(void) {$/;"	f
+smb4	h6280.c	/^int smb4(void) {$/;"	f
+smb5	h6280.c	/^int smb5(void) {$/;"	f
+smb6	h6280.c	/^int smb6(void) {$/;"	f
+smb7	h6280.c	/^int smb7(void) {$/;"	f
+smode	pce.c	/^SInt32 smode = 1;$/;"	v
+snd_vol	pce.c	/^signed char snd_vol[6][32];$/;"	v
+sound	pce.h	/^  struct host_sound sound;$/;"	m	struct:host_machine	typeref:struct:host_machine::host_sound
+sound_driver	sound.c	/^UChar sound_driver = 1;$/;"	v
+sound_driver	sound_prev.c	/^UChar sound_driver = 1;$/;"	v
+sound_dump_last_cycle	sound.c	/^static UInt32 sound_dump_last_cycle;$/;"	v	file:
+sound_dump_last_cycle	sound_prev.c	/^static UInt32 sound_dump_last_cycle;$/;"	v	file:
+sound_dump_length	sound.c	/^static int sound_dump_length;$/;"	v	file:
+sound_dump_length	sound_prev.c	/^static int sound_dump_length;$/;"	v	file:
+source_type	pce.h	/^  hcd_source_type source_type;$/;"	m	struct:__anon20
+sp2pixel	sprite.c	/^sp2pixel (int no)$/;"	f	file:
+sp_base	hard_pce.c	/^UChar *sp_base;$/;"	v
+spr_init_pos	sprite.c	/^UInt32 spr_init_pos[1024];$/;"	v
+st0	h6280.c	/^int st0(void) {$/;"	f
+st1	h6280.c	/^int st1(void) {$/;"	f
+st2	h6280.c	/^int st2(void) {$/;"	f
+sta_abs	h6280.c	/^int sta_abs(void) {$/;"	f
+sta_absx	h6280.c	/^int sta_absx(void) {$/;"	f
+sta_absy	h6280.c	/^int sta_absy(void) {$/;"	f
+sta_zp	h6280.c	/^int sta_zp(void) {$/;"	f
+sta_zpind	h6280.c	/^int sta_zpind(void) {$/;"	f
+sta_zpindx	h6280.c	/^int sta_zpindx(void) {$/;"	f
+sta_zpindy	h6280.c	/^int sta_zpindy(void) {$/;"	f
+sta_zpx	h6280.c	/^int sta_zpx(void) {$/;"	f
+start_dump_audio	sound.c	/^int start_dump_audio(void)$/;"	f
+start_dump_audio	sound_prev.c	/^int start_dump_audio(void)$/;"	f
+start_dump_video	gfx.c	/^int start_dump_video()$/;"	f
+start_x	gfx.h	/^  unsigned short start_x, start_y;$/;"	m	struct:generic_rect
+start_y	gfx.h	/^  unsigned short start_x, start_y;$/;"	m	struct:generic_rect
+stereo	pce.h	/^  boolean stereo;$/;"	m	struct:host_sound
+still_need_search	lang.h	37;"	d
+stop_dump_audio	sound.c	/^void stop_dump_audio(void)$/;"	f
+stop_dump_audio	sound_prev.c	/^void stop_dump_audio(void)$/;"	f
+stop_dump_video	gfx.c	/^void stop_dump_video()$/;"	f
+str	gui.h	/^       char str[16];$/;"	m	struct:__anon1
+strcasestr	utils.c	/^strcasestr (const char *s1, const char *s2)$/;"	f
+strcmpcasenosensitive_internal	unzip.c	/^local int strcmpcasenosensitive_internal (fileName1,fileName2)$/;"	f
+stream	unzip.c	/^	z_stream stream;            \/* zLib stream structure for inflate *\/$/;"	m	struct:__anon14	file:
+stream_initialised	unzip.c	/^	uLong stream_initialised;   \/* flag set if stream structure is initialised*\/$/;"	m	struct:__anon14	file:
+stricmp	utils.c	/^stricmp (char *s1, char *s2)$/;"	f
+struct_hard_pce	shared_memory.h	/^} struct_hard_pce;$/;"	t	typeref:struct:__anon7
+strupr	utils.c	/^strupr(char *s)$/;"	f
+stx_abs	h6280.c	/^int stx_abs(void) {$/;"	f
+stx_zp	h6280.c	/^int stx_zp(void) {$/;"	f
+stx_zpy	h6280.c	/^int stx_zpy(void) {$/;"	f
+sty_abs	h6280.c	/^int sty_abs(void) {$/;"	f
+sty_zp	h6280.c	/^int sty_zp(void) {$/;"	f
+sty_zpx	h6280.c	/^int sty_zpx(void) {$/;"	f
+stz_abs	h6280.c	/^int stz_abs(void) {$/;"	f
+stz_absx	h6280.c	/^int stz_absx(void) {$/;"	f
+stz_zp	h6280.c	/^int stz_zp(void) {$/;"	f
+stz_zpx	h6280.c	/^int stz_zpx(void) {$/;"	f
+subtitle	pce.h	/^  SubtitleEntry *subtitle;$/;"	m	struct:__anon20
+subtitle_number	pce.h	/^  UInt32 subtitle_number;$/;"	m	struct:__anon20
+subtitle_synchro_type	pce.h	/^  UChar subtitle_synchro_type;$/;"	m	struct:__anon20
+sxy	h6280.c	/^int sxy(void) {$/;"	f
+synchro	psp/osd_psp_machine.c	/^char synchro;$/;"	v
+syncro_60hz	lang.h	13;"	d
+syscard_filename	pce.c	/^static char syscard_filename[PATH_MAX];$/;"	v	file:
+tagIO	shared_memory.h	/^typedef struct tagIO {$/;"	s
+tai	h6280.c	/^int tai(void) {$/;"	f
+tam	h6280.c	/^int tam(void) {$/;"	f
+tax	h6280.c	/^int tax(void) {$/;"	f
+tay	h6280.c	/^int tay(void) {$/;"	f
+tdd	h6280.c	/^int tdd(void) {$/;"	f
+temp_result	iniconfig.c	/^char temp_result[BUFSIZ];$/;"	v
+testadpcm	bios.c	/^int testadpcm = 0;$/;"	v
+textoutshadow	gfx.h	30;"	d
+tia	h6280.c	/^int tia(void) {$/;"	f
+tii	h6280.c	/^int tii(void) {$/;"	f
+time_elapsed	lang.h	42;"	d
+time_used	pce.c	/^unsigned nb_used[256], time_used[256];$/;"	v
+timer_60	pce.c	/^UInt32 timer_60 = 0;$/;"	v
+timer_counter	shared_memory.h	/^  UChar timer_reload,timer_start,timer_counter;$/;"	m	struct:tagIO
+timer_reload	shared_memory.h	/^  UChar timer_reload,timer_start,timer_counter;$/;"	m	struct:tagIO
+timer_start	shared_memory.h	/^  UChar timer_reload,timer_start,timer_counter;$/;"	m	struct:tagIO
+tin	h6280.c	/^int tin(void) {$/;"	f
+tm_hour	unzip.h	/^	uInt tm_hour;           \/* hours since midnight - [0,23] *\/$/;"	m	struct:tm_unz_s
+tm_mday	unzip.h	/^	uInt tm_mday;           \/* day of the month - [1,31] *\/$/;"	m	struct:tm_unz_s
+tm_min	unzip.h	/^	uInt tm_min;            \/* minutes after the hour - [0,59] *\/$/;"	m	struct:tm_unz_s
+tm_mon	unzip.h	/^	uInt tm_mon;            \/* months since January - [0,11] *\/$/;"	m	struct:tm_unz_s
+tm_sec	unzip.h	/^	uInt tm_sec;            \/* seconds after the minute - [0,59] *\/$/;"	m	struct:tm_unz_s
+tm_unz	unzip.h	/^} tm_unz;$/;"	t	typeref:struct:tm_unz_s
+tm_unz_s	unzip.h	/^typedef struct tm_unz_s $/;"	s
+tm_year	unzip.h	/^	uInt tm_year;           \/* years - [1980..2044] *\/$/;"	m	struct:tm_unz_s
+tma	h6280.c	/^int tma(void) {$/;"	f
+tmp_basepath	pce.c	/^char tmp_basepath[PATH_MAX];$/;"	v
+tmp_str	sprite.c	/^char tmp_str[10];$/;"	v
+tmu_date	unzip.h	/^    tm_unz tmu_date;$/;"	m	struct:unz_file_info_s
+toggle_user_breakpoint	debug.c	/^toggle_user_breakpoint (UInt16 where)$/;"	f
+translated_by	lang.h	49;"	d
+trap_ram_read	hard_pce.c	/^UChar* trap_ram_read;$/;"	v
+trap_ram_write	hard_pce.c	/^UChar* trap_ram_write;$/;"	v
+trb_abs	h6280.c	/^int trb_abs(void) {$/;"	f
+trb_zp	h6280.c	/^int trb_zp(void) {$/;"	f
+true_file_name	pce.c	/^char true_file_name[PATH_MAX];$/;"	v
+tsb_abs	h6280.c	/^int tsb_abs(void) {$/;"	f
+tsb_zp	h6280.c	/^int tsb_zp(void) {$/;"	f
+tst_abs	format.c	/^tst_abs (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+tst_absx	format.c	/^tst_absx (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+tst_zp	format.c	/^tst_zp (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+tst_zpx	format.c	/^tst_zpx (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+tstins_abs	h6280.c	/^int tstins_abs(void) {$/;"	f
+tstins_absx	h6280.c	/^int tstins_absx(void) {$/;"	f
+tstins_zp	h6280.c	/^int tstins_zp(void) {$/;"	f
+tstins_zpx	h6280.c	/^int tstins_zpx(void) {$/;"	f
+tsx	h6280.c	/^int tsx(void) {$/;"	f
+txa	h6280.c	/^int txa(void) {$/;"	f
+txs	h6280.c	/^int txs(void) {$/;"	f
+tya	h6280.c	/^int tya(void) {$/;"	f
+type	pce.h	/^  UChar type;$/;"	m	struct:__anon20
+uint4	lsmp3.c	/^typedef unsigned long uint4;$/;"	t	file:
+uncompressed_size	unzip.h	/^    uLong uncompressed_size;    \/* uncompressed size               4 bytes *\/ $/;"	m	struct:unz_file_info_s
+unknown_contact_me	lang.h	40;"	d
+unknown_rom	lang.h	19;"	d
+unused	unzip.h	/^typedef struct TagunzFile__ { int unused; } unzFile__; $/;"	m	struct:TagunzFile__
+unzClose	unzip.c	/^extern int ZEXPORT unzClose (file)$/;"	f
+unzCloseCurrentFile	unzip.c	/^extern int ZEXPORT unzCloseCurrentFile (file)$/;"	f
+unzFile	unzip.h	/^typedef unzFile__ *unzFile;$/;"	t
+unzFile	unzip.h	/^typedef voidp unzFile;$/;"	t
+unzFile__	unzip.h	/^typedef struct TagunzFile__ { int unused; } unzFile__; $/;"	t	typeref:struct:TagunzFile__
+unzGetCurrentFileInfo	unzip.c	/^extern int ZEXPORT unzGetCurrentFileInfo (file,$/;"	f
+unzGetGlobalComment	unzip.c	/^extern int ZEXPORT unzGetGlobalComment (file, szComment, uSizeBuf)$/;"	f
+unzGetGlobalInfo	unzip.c	/^extern int ZEXPORT unzGetGlobalInfo (file,pglobal_info)$/;"	f
+unzGetLocalExtrafield	unzip.c	/^extern int ZEXPORT unzGetLocalExtrafield (file,buf,len)$/;"	f
+unzGoToFirstFile	unzip.c	/^extern int ZEXPORT unzGoToFirstFile (file)$/;"	f
+unzGoToNextFile	unzip.c	/^extern int ZEXPORT unzGoToNextFile (file)$/;"	f
+unzLocateFile	unzip.c	/^extern int ZEXPORT unzLocateFile (file, szFileName, iCaseSensitivity)$/;"	f
+unzOpen	unzip.c	/^extern unzFile ZEXPORT unzOpen (path)$/;"	f
+unzOpenCurrentFile	unzip.c	/^extern int ZEXPORT unzOpenCurrentFile (file)$/;"	f
+unzReadCurrentFile	unzip.c	/^extern int ZEXPORT unzReadCurrentFile  (file, buf, len)$/;"	f
+unzStringFileNameCompare	unzip.c	/^extern int ZEXPORT unzStringFileNameCompare (fileName1,fileName2,iCaseSensitivity)$/;"	f
+unz_copyright	unzip.c	/^const char unz_copyright[] =$/;"	v
+unz_file_info	unzip.h	/^} unz_file_info;$/;"	t	typeref:struct:unz_file_info_s
+unz_file_info_internal	unzip.c	/^} unz_file_info_internal;$/;"	t	typeref:struct:unz_file_info_internal_s	file:
+unz_file_info_internal_s	unzip.c	/^typedef struct unz_file_info_internal_s$/;"	s	file:
+unz_file_info_s	unzip.h	/^typedef struct unz_file_info_s$/;"	s
+unz_global_info	unzip.h	/^} unz_global_info;$/;"	t	typeref:struct:unz_global_info_s
+unz_global_info_s	unzip.h	/^typedef struct unz_global_info_s$/;"	s
+unz_s	unzip.c	/^} unz_s;$/;"	t	typeref:struct:__anon15	file:
+unzeof	unzip.c	/^extern int ZEXPORT unzeof (file)$/;"	f
+unzlocal_CheckCurrentFileCoherencyHeader	unzip.c	/^local int unzlocal_CheckCurrentFileCoherencyHeader (s,piSizeVar,$/;"	f
+unzlocal_DosDateToTmuDate	unzip.c	/^local void unzlocal_DosDateToTmuDate (ulDosDate, ptm)$/;"	f
+unzlocal_GetCurrentFileInfoInternal	unzip.c	/^local int unzlocal_GetCurrentFileInfoInternal (file,$/;"	f
+unzlocal_SearchCentralDir	unzip.c	/^local uLong unzlocal_SearchCentralDir(fin)$/;"	f
+unzlocal_getByte	unzip.c	/^local int unzlocal_getByte(fin,pi)$/;"	f
+unzlocal_getLong	unzip.c	/^local int unzlocal_getLong (fin,pX)$/;"	f
+unzlocal_getShort	unzip.c	/^local int unzlocal_getShort (fin,pX)$/;"	f
+unztell	unzip.c	/^extern z_off_t ZEXPORT unztell (file)$/;"	f
+update_sound	mix.c	/^void (*update_sound[4])() =$/;"	v
+update_sound	mix.h	/^void (*update_sound[4])();$/;"	v
+update_sound_allegro	mix.c	/^void update_sound_allegro(void)$/;"	f
+update_sound_null	mix.c	/^void update_sound_null(void)$/;"	f
+update_sound_seal	mix.c	/^void update_sound_seal(void)$/;"	f
+use_eagle	pce.c	/^UChar use_eagle = 0;$/;"	v
+use_scanline	pce.c	/^UChar use_scanline = 0;$/;"	v
+value	cheat.h	/^		 unsigned char value;$/;"	m	struct:__anon9
+value	iniconfig.c	/^  char *value;$/;"	m	struct:__anon16	file:
+variable	iniconfig.c	/^  char *variable;$/;"	m	struct:__anon16	file:
+vce_ratch	shared_memory.h	/^  UChar vce_ratch; \/* temporary value to keep track of the first byte$/;"	m	struct:tagIO
+vce_reg	shared_memory.h	/^  pair vce_reg;    \/* currently selected color *\/$/;"	m	struct:tagIO
+vchange	hard_pce.c	/^UChar  *vchange;$/;"	v
+vchange	shared_memory.h	/^  UChar vchange[VRAMSIZE \/ 32];$/;"	m	struct:__anon7
+vchanges	hard_pce.c	/^UChar  *vchanges;$/;"	v
+vchanges	shared_memory.h	/^  UChar vchanges[VRAMSIZE \/ 128];$/;"	m	struct:__anon7
+vdc3	hard_pce.h	/^  vdc3,	\/*  3 *\/$/;"	e	enum:_VDC_REG
+vdc4	hard_pce.h	/^  vdc4,	\/*  4 *\/$/;"	e	enum:_VDC_REG
+vdc_inc	shared_memory.h	/^  UInt16 vdc_inc;  \/* VRAM pointer increment once accessed *\/$/;"	m	struct:tagIO
+vdc_max_display	shared_memory.h	/^  UInt16 vdc_max_display; \/\/ Last scanline of active display$/;"	m	struct:tagIO
+vdc_min_display	shared_memory.h	/^  UInt16 vdc_min_display; \/\/ First scanline of active display$/;"	m	struct:tagIO
+vdc_pendvsync	shared_memory.h	/^  UChar vdc_pendvsync; \/* unsure, set if a end of screen IRQ is waiting *\/$/;"	m	struct:tagIO
+vdc_raster_count	shared_memory.h	/^  UInt16 vdc_raster_count; \/* unused as far as I know *\/$/;"	m	struct:tagIO
+vdc_ratch	shared_memory.h	/^  UChar vdc_ratch; \/* temporary value to keep track of the first byte$/;"	m	struct:tagIO
+vdc_reg	shared_memory.h	/^  UChar vdc_reg;   \/* currently selected VDC register *\/$/;"	m	struct:tagIO
+vdc_satb	shared_memory.h	/^  UChar vdc_satb;  \/* boolean which keeps track of the need to copy$/;"	m	struct:tagIO
+vdc_status	shared_memory.h	/^  UChar vdc_status; \/* current VCD status (end of line, end of screen, ...) *\/$/;"	m	struct:tagIO
+version	unzip.h	/^    uLong version;              \/* version made by                 2 bytes *\/$/;"	m	struct:unz_file_info_s
+version_needed	unzip.h	/^    uLong version_needed;       \/* version needed to extract       2 bytes *\/$/;"	m	struct:unz_file_info_s
+video	pce.h	/^  struct host_video video;$/;"	m	struct:host_machine	typeref:struct:host_machine::host_video
+video_driver	pce.c	/^UChar video_driver = 0;$/;"	v
+video_dump_flag	gfx.c	/^int video_dump_flag = 0;$/;"	v
+video_dump_on	lang.h	53;"	d
+video_frame_skipped	gfx.c	/^static int video_frame_total, video_frame_skipped;$/;"	v	file:
+video_frame_total	gfx.c	/^static int video_frame_total, video_frame_skipped;$/;"	v	file:
+video_output_base_filename	gfx.c	/^static char video_output_base_filename[PATH_MAX];$/;"	v	file:
+video_output_file	gfx.c	/^static FILE* video_output_file = NULL;$/;"	v	file:
+video_output_frame_count	gfx.c	/^static int video_output_frame_count;$/;"	v	file:
+video_path	pce.c	/^char video_path[PATH_MAX];$/;"	v
+volume_set_to	lang.h	51;"	d
+w	defs.h	/^  UInt16       w;$/;"	m	union:__anon11
+w	defs.h	/^  WordsOfLong  w;$/;"	m	union:__anon13
+wait_next_vsync	utils.c	/^wait_next_vsync()$/;"	f
+want_arcade_card_emulation	pce.h	/^  boolean want_arcade_card_emulation;$/;"	m	struct:hugo_options
+want_fullscreen	pce.h	/^  boolean want_fullscreen;$/;"	m	struct:hugo_options
+want_fullscreen_aspect	pce.h	/^  boolean want_fullscreen_aspect;$/;"	m	struct:hugo_options
+want_hardware_scaling	pce.h	/^  boolean want_hardware_scaling;$/;"	m	struct:hugo_options
+want_netplay	pce.h	/^  netplay_type want_netplay;$/;"	m	struct:hugo_options
+want_snd_freq	pce.h	/^  UInt32 want_snd_freq;$/;"	m	struct:hugo_options
+want_stereo	pce.h	/^  boolean want_stereo;$/;"	m	struct:hugo_options
+want_supergraphx_emulation	pce.h	/^  boolean want_supergraphx_emulation;$/;"	m	struct:hugo_options
+want_television_size_emulation	pce.h	/^  boolean want_television_size_emulation;$/;"	m	struct:hugo_options
+wanted	sound.c	/^SDL_AudioSpec wanted; \/* For SDL Audio *\/$/;"	v
+wanted	sound_prev.c	/^SDL_AudioSpec wanted; \/* For SDL Audio *\/$/;"	v
+wanted_hardware_format	pce.h	/^  UInt32 wanted_hardware_format;$/;"	m	struct:hugo_options
+wave	shared_memory.h	/^  UChar PSG[6][8], wave[6][32];$/;"	m	struct:tagIO
+wh	defs.h	/^  Word  wh;$/;"	m	struct:__anon12
+window_size	pce.h	/^  UChar window_size;$/;"	m	struct:hugo_options
+wipe_directory	utils.c	/^wipe_directory(char* directory_name)$/;"	f
+wl	defs.h	/^  Word  wl;$/;"	m	struct:__anon12
+write_adpcm	sound.c	/^void write_adpcm(void)$/;"	f
+write_adpcm	sound_prev.c	/^void write_adpcm(void)$/;"	f
+write_memory_arcade_card	hard_pce.c	/^void write_memory_arcade_card(UInt16 A, UChar V)$/;"	f
+write_memory_function	hard_pce.c	/^void (*write_memory_function)(UInt16,UChar) = write_memory_simple;$/;"	v
+write_memory_function	hard_pce.h	/^void	(*write_memory_function)(UInt16,UChar);$/;"	v
+write_memory_sf2	hard_pce.c	/^void write_memory_sf2(UInt16 A, UChar V)$/;"	f
+write_memory_simple	hard_pce.c	/^void write_memory_simple(UInt16 A, UChar V)$/;"	f
+write_psg	sound.c	/^write_psg (int ch)$/;"	f
+write_psg	sound_prev.c	/^write_psg (int ch)$/;"	f
+writeindexedram	cheat.c	/^writeindexedram (UInt32 index, UChar value)$/;"	f
+x	sprite.h	/^	short y,x,no,atr;$/;"	m	struct:__anon22
+xfer	format.c	/^xfer (char *outf, long ctr, unsigned char *op, char *str)$/;"	f
+y	sprite.h	/^	short y,x,no,atr;$/;"	m	struct:__anon22
+zp_base	hard_pce.c	/^UChar *zp_base;$/;"	v
+zp_operand	h6280.c	104;"	d	file:
+zpind_operand	h6280.c	107;"	d	file:
+zpindx_operand	h6280.c	108;"	d	file:
+zpindy_operand	h6280.c	109;"	d	file:
+zpx_operand	h6280.c	105;"	d	file:
+zpy_operand	h6280.c	106;"	d	file:

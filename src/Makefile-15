@@ -1,0 +1,116 @@
+#
+# HUGO port on PSP 
+#
+TARGET = psphugo
+PSPSDK = $(shell psp-config --pspsdk-path)
+PSPBIN = $(shell psp-config --psp-prefix)/bin
+SDL_CONFIG = $(PSPBIN)/sdl-config
+
+PSP_OBJS = \
+Hugo.o \
+psp_main.o \
+psp_sdl.o \
+psp_gu.o \
+psp_font.o \
+psp_battery.o \
+psp_kbd.o \
+psp_menu.o \
+psp_danzeff.o \
+psp_menu_set.o \
+psp_menu_help.o \
+psp_menu_cheat.o \
+psp_menu_list.o \
+psp_menu_kbd.o \
+psp_menu_joy.o \
+psp_editor.o \
+psp_irkeyb.o \
+psp_fmgr.o \
+psp_audio.o \
+mp3player.o \
+psp_irda.o \
+psp_joy.o \
+core/psp/osd_psp_cd.o \
+core/psp/osd_psp_mix.o \
+core/psp/osd_psp_gfx.o \
+core/psp/osd_psp_snd.o \
+core/psp/osd_psp_machine.o \
+core/psp/osd_psp_keyboard.o \
+
+EMU_OBJS= \
+core/cd.o \
+core/dis.o \
+core/edit_ram.o \
+core/followop.o \
+core/format.o \
+core/gfx.o \
+core/h6280.o \
+core/hard_pce.o \
+core/hugo.o \
+core/list_rom.o \
+core/lsmp3.o \
+core/mix.o \
+core/optable.o \
+core/pce.o \
+core/pcecd.o \
+core/sound.o \
+core/sprite.o \
+core/utils.o \
+core/hcd.o  \
+core/miniunz.o  \
+core/unzip.o  \
+core/bios.o core/cheat.o core/debug.o core/iniconfig.o core/bp.o
+
+OBJS= $(EMU_OBJS) $(PSP_OBJS)
+
+DEFAULT_CFLAGS = $(shell $(SDL_CONFIG) --cflags)
+
+PSP_FW_VERSION=500
+PSPHUGO_VERSION=1.3.1-fw15
+
+# -fexpensive-optimizations 
+
+MORE_CFLAGS = -Icore -Icore/psp \
+ -funroll-loops -ffast-math -fomit-frame-pointer \
+ -fno-strength-reduce -finline-functions \
+ -fsingle-precision-constant \
+ -DPSP -DPSP_AUDIO \
+ -DPSPHUGO_VERSION=\"$(PSPHUGO_VERSION)\" \
+ -DUSE_IRDA_JOY -DUSE_PSP_IRKEYB \
+ -DNO_STDIO_REDIRECT
+
+OPTIM_CFLAGS= -O2
+
+CFLAGS = $(DEFAULT_CFLAGS) $(MORE_CFLAGS)
+
+LIBS += -lpspirkeyb -lpsppower -lmad -lSDL_image -lSDL -lpng -ljpeg -lpspaudio -lpspgu -lpsphprm -lpspmp3 -lz -lm
+
+EXTRA_TARGETS   = EBOOT.PBP
+PSP_EBOOT_TITLE = PSPHUGO-v$(PSPHUGO_VERSION)
+PSP_EBOOT_ICON  = psphugo.png
+PSP_EBOOT_SND0  = psphugo.at3
+PSP_EBOOT_PIC1 = psphugo-pic.png
+
+include $(PSPSDK)/lib/build.mak
+
+all: SCEkxploit
+
+.c.o:
+	$(CC) $(CFLAGS) $(OPTIM_CFLAGS) -c -o $@ $<
+
+psp_gu.o : psp_gu.c
+	$(CC) -c $< $(CFLAGS) -G0 -O0 -o $@
+
+core/h6280.o : core/h6280.c
+	$(CC) -c $< $(CFLAGS) -O3 -o $@
+
+install: all
+	@mkdir -p /media/usbdisk/psp/game150/__SCE__psphugo/
+	@mkdir -p /media/usbdisk/psp/game150/%__SCE__psphugo/
+	cp __SCE__psphugo/EBOOT.PBP /media/usbdisk/psp/game150/__SCE__psphugo/
+	cp %__SCE__psphugo/EBOOT.PBP /media/disk/psp/game150/%__SCE__psphugo/
+
+realclean:
+	/bin/rm -f $(OBJS) EBOOT.PBP PARAM.SFO __SCE__psphugo/EBOOT.PBP %__SCE__psphugo/EBOOT.PBP psphugo.elf
+
+ctags :
+	ctags -R 

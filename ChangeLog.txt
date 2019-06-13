@@ -1,0 +1,89 @@
+1.3.1
+
+- This version of PSP-Hugo supports IRDA-Joystick box designed 
+  by my good friend Buzz ( see http://buzz.computer.free.fr ).
+  Schematic and PIC source code is provided in contrib folder.
+- Add "IRDA joystick" device support for both
+  DB9 Joystick and Atari Paddle
+- Add menu for IRDA joystick settings and keys mapping
+- Add option to choose between IRDA devices (keyboard or joystick)
+
+1.3.0
+
+- Audio Track support for CD-ROM
+  (support only MP3 format with stereo 16 bits samples 
+	at 22k or 44k rate)
+- CD-ROM TOC file format support.
+- Using TurboRip, ripped CD can now be used directly with PSP-Hugo !
+  (see README file for explanations)
+- Increase PSP clock speed when playing mp3 CD tracks 
+- Disable sound while saving states & screenshots 
+  (to avoid scratchy noise for few seconds)
+- Fix sleep mode issue
+- Replace SDL sound engine by direct PSP audio stuff
+  to improve performances
+- Fix issue when loading more than one CD image
+- New backgrounds
+
+
+1.2.0
+
+- Finally fix issue with "Home -> Exit" !
+- Digital pad is now usable in file requester 
+  even when danzeff keyboard is displayed
+- Fix inconsistency between zip rom file names and save game name.
+- Tested on new FW 5x-M33
+
+1.0.5
+
+- Major speed improvement
+- Text editor to write your own comments on games 
+- Display first comment line while browsing game files
+- Improve cheat menu & memory monitoring engine
+- Text editor to modify the global cheat.txt file
+- Bug fix in unzip function (if you tried to unzip 
+  more than 10 files, it wasn't able to open any 
+  other files, and you had to restart the emulator)
+
+1.0.4
+
+- Improve global emulation speed !
+  PC Kid is now fullspeed even at 222Mhz 
+	(overclock parameter set to 26 and sound 22Khz mono)
+- HCD file support but sound audio track are still ignored  
+- Cheat support !
+- Memory monitoring engine to find your own cheat code !
+
+1.0.3
+
+- Improve global emulation speed 
+- ISO file support but sound audio track are ignored  
+- Screen size 320x240 is now supported
+  (required for games such as R-Type)
+- Add two new sound engines : mono (fast 22K or 44K) and 
+  stereo (accurate 22K or 44K).
+  You may have to reset the game when you change between 
+	mono and stereo, and save states may not work properly.
+  (some games are now fullspeed using audio mono 22K at 222Mhz)
+- Zip rom files are now decompressed in memory (much faster !)
+- Bug fix with D-pad (didn't work properly in previous versions)
+
+1.0.2
+
+- Rewrite sound engine using part of code from Hugo-Wii port version, it is 
+  now much closer to real PC Engine sound.
+- Fix sprites display glitches in Gunhead and several other games
+- Fix save state issue in all games (it was a miracle if that worked)
+- Improve global emulation speed (fullspeed in many games at 266Mhz)
+- Add a new overclock option resulting in a faster emulation speed
+  (but if you encounter any graphical glitches then you may have to set
+	 overclock to 0 and increase PSP clock speed instead)
+- Improve file requester with virtual keyboard to choose sequentially
+  rom files beginning with a given letter
+- Volume booster
+- Bug fix in the keyboard menu (joystick keys)
+- Add documentation for settings in help menu
+
+1.0.1
+
+- Intial release
